@@ -8,6 +8,7 @@ import { SearchComponent } from './search/search.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { TestComponent } from './test/test.component';
 import { FavouritesComponent } from './favourites/favourites.component';
+import { AdvancedSearchComponent } from './advanced-search/advanced-search.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { FavouritesComponent } from './favourites/favourites.component';
     NavbarComponent,
     SearchComponent,
     TestComponent,
-    FavouritesComponent
+    FavouritesComponent,
+    AdvancedSearchComponent
   ],
   imports: [
     BrowserModule,
