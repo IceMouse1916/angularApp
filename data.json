@@ -1,0 +1,12 @@
+{
+  "occupations":[
+      {"id": 0, "label": "taxi driver", "video": "url...", "description": ""},
+      {"id": 1, "label": "nurse", "video": "url...", "description": ""},
+      {"id": 2, "label": "firefighter", "video": "url...", "description": ""},
+      {"id": 3, "label": "police officer", "video": "url...", "description": ""},
+      {"id": 4, "label": "teacher", "video": "url...", "description": ""},
+      {"id": 5, "label": "Web developer", "video": "url...", "description": ""},
+      {"id": 6, "label": "bodyguard", "video": "url...", "description": ""}
+  ]
+
+}
