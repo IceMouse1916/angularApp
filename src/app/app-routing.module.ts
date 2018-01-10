@@ -13,7 +13,8 @@ const routes: Routes = [
   {path:'test', component: TestComponent},
   {path:'favourites', component: FavouritesComponent},
   {path:'search/advanced', component: AdvancedSearchComponent},
-  {path:'start', component: StartPageComponent}
+  {path:'start', component: StartPageComponent},
+  {path: '', redirectTo: 'start', pathMatch: 'full'}
 ];
 
 @NgModule({
