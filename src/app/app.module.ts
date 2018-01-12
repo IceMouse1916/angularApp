@@ -16,6 +16,7 @@ import { StartPageComponent } from './start-page/start-page.component';
 import { OccupationsService } from './occupations.service';
 
 import { HttpClientModule } from '@angular/common/http';
+import { OccupationsListComponent } from './occupations-list/occupations-list.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { HttpClientModule } from '@angular/common/http';
     TestComponent,
     FavouritesComponent,
     AdvancedSearchComponent,
-    StartPageComponent
+    StartPageComponent,
+    OccupationsListComponent
   ],
   imports: [
     BrowserModule,
