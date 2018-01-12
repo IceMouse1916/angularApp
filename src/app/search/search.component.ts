@@ -14,15 +14,12 @@ export class SearchComponent implements OnInit {
   }
  
   occupations;
-  
-  downloadOccupations() {
-    this.occupationService.getOccupations()
-                          .subscribe(response => { 
-                                    this.occupations = response 
-                                    });
-    
-  }
 
-  
+  downloadChosenOccupations(userWord){
+    this.occupationService.getChosenOccupations('?label_like='+userWord)
+                          .subscribe(response => { 
+                          this.occupations = response 
+                          });
+  }  
 
 }

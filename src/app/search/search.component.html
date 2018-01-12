@@ -1,10 +1,9 @@
 <nk-navbar>
 <form>
-  <input type="text" class="form-control" [(ngModel)]="nkName" name="searchOccupation" placeholder="enter occupation">
-  <button type="button" class="btn btn-block btn-outline-primary">Search</button>
+  <input type="text" class="form-control" [(ngModel)]="nkUserPhrase" name="searchOccupation" (ngModelChange)="downloadChosenOccupations(nkUserPhrase)" placeholder="enter occupation">
+  <button type="button" class="btn btn-block btn-outline-primary" (click)="downloadChosenOccupations(nkUserPhrase)">Search</button>
   <button type="button" routerLink="/search/advanced" class="btn btn-block btn-outline-primary">Advanced Search</button>
-  <button type="button" class="btn btn-block btn-outline-primary" (click)="downloadOccupations()">Show all occupations</button>
 </form>
 
-<nk-occupations-list *ngIf="occupations" [nkDataToRender]="occupations"></nk-occupations-list>
+<nk-occupations-list [nkDataToRender]="occupations"></nk-occupations-list>
 </nk-navbar>
