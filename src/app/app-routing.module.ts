@@ -14,7 +14,7 @@ const routes: Routes = [
   {path:'favourites', component: FavouritesComponent},
   {path:'search/advanced', component: AdvancedSearchComponent},
   {path:'start', component: StartPageComponent},
-  {path: '', redirectTo: 'start', pathMatch: 'full'}
+  {path: '', redirectTo: 'search', pathMatch: 'full'}
 ];
 
 @NgModule({

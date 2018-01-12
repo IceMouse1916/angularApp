@@ -1,7 +1,13 @@
 <nk-navbar>
 <form>
   <input type="text" class="form-control"  placeholder="enter occupation">
-  <button type="button" class="btn btn-block btn-outline-primary">Search</button>
+  <button type="button" class="btn btn-block btn-outline-primary" >Search</button>
   <button type="button" routerLink="/search/advanced" class="btn btn-block btn-outline-primary">Advanced Search</button>
 </form>
+<button type="button" class="btn" (click)="downloadOccupations()">Show all occupations</button>
+<ul *ngIf="occupations">
+  <li *ngFor="let occupation of occupations">
+      {{occupation.label}}
+  </li>
+</ul>
 </nk-navbar>
