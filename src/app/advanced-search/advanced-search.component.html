@@ -1,3 +1,17 @@
-<p>
-  advanced-search works!
-</p>
+<div>
+    <form>
+    <h6 style="margin-top:20px;">min Salary (PLN)</h6>
+    <input type="number" [(ngModel)]="nkSalary" name="nkSalary" class="form-control">
+    <h6 style="margin-top:20px;">Stress level (0 - no stress, 10 - extremly stressful job)</h6>
+    <input type="range" [(ngModel)]="nkStressLevel" name="nkStressLevel" class="form-control" min="0" max="10" step="1">
+    <p>Stress: {{nkStressLevel}}</p>
+    <h6 style="margin-top:20px;">Education</h6>
+      <select [(ngModel)]="nkEducation" name="nkEducation">
+        <option value="1">Basic</option>
+        <option value="2">Secondary</option>
+        <option value="3">Higher</option>
+      </select>
+  </form>
+  <button type="button" style="margin-top:20px;" class="btn btn-block btn-outline-primary">Search</button>
+  <button type="button" class="btn btn-block btn-outline-primary" routerLink="/search">Back to searcher</button>
+</div>

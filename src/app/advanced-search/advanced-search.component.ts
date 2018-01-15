@@ -9,6 +9,11 @@ export class AdvancedSearchComponent implements OnInit {
 
   constructor() { }
 
+  // default form values
+  nkStressLevel = 5;
+  nkSalary = 1000;
+  nkEducation = 1;
+
   ngOnInit() {
   }
 
