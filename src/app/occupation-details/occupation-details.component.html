@@ -1,3 +1,8 @@
-<p>
-  occupation-details works!
-</p>
+<div *ngIf="occupation">
+  <h3>{{occupation.label}}</h3>
+  <p>{{occupation.description}}</p>
+  <iframe width="560" height="315" [src]='safeUrl' frameborder="0" allowfullscreen></iframe>
+  <button type="button" class="btn btn-primary" routerLink="/search">Back to searcher</button>
+ 
+
+</div>

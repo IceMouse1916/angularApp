@@ -12,4 +12,8 @@ export class OccupationsService {
   getChosenOccupations(value) {
     return this.http.get('http://localhost:3000/occupations' + value); 
     }
+
+  getOccupationById(id){
+    return this.http.get('http://localhost:3000/occupations?id=' + id); 
+  }
 }
