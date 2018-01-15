@@ -1,12 +1,20 @@
-<table *ngIf="nkDataToRender" class="table table-striped table-bordered table-sm">
+<table *ngIf="nkDataToRender" class="table table-hover table-sm">
     <thead>
       <tr>
         <th>Name</th>
+        <th>Average Salary</th>
+        <th>Stress level</th>
+        <th>Education Level</th>
       </tr>
     </thead>
     <tbody>
       <tr *ngFor="let occupation of nkDataToRender" [routerLink]="['/occupation', occupation.id]" >
-        <td >- {{occupation.label}}</td>
+        <td> {{occupation.label}}</td>
+        <td> {{occupation.salary}} PLN</td>
+        <td> {{occupation.stress}} / 10</td>
+        <td *ngIf="occupation.education === 1">Basic</td>
+        <td *ngIf="occupation.education === 2">Secondary</td>
+        <td *ngIf="occupation.education === 3">Higher</td>
       </tr>
     </tbody>
   </table>
