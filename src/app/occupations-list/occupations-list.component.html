@@ -5,7 +5,7 @@
       </tr>
     </thead>
     <tbody>
-      <tr *ngFor="let occupation of nkDataToRender">
+      <tr *ngFor="let occupation of nkDataToRender" [routerLink]="['/occupation', occupation.id]" >
         <td >- {{occupation.label}}</td>
       </tr>
     </tbody>

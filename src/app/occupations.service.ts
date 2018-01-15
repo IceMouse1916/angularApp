@@ -9,12 +9,7 @@ export class OccupationsService {
 
   constructor( private http: HttpClient ) { }
 
-
-  getAllOccupations() {
-  return this.http.get('http://localhost:3000/occupations'); 
-  }
-
   getChosenOccupations(value) {
-    return this.http.get('http://localhost:3000/occupations'+value); 
+    return this.http.get('http://localhost:3000/occupations' + value); 
     }
 }
