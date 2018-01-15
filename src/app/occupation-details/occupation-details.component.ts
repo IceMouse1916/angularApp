@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import {Router, ActivatedRoute, Params} from '@angular/router';
+
 @Component({
   selector: 'nk-occupation-details',
   templateUrl: './occupation-details.component.html',
@@ -7,9 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OccupationDetailsComponent implements OnInit {
 
-  constructor() { }
+  constructor(private activatedRoute: ActivatedRoute) {}
+
+  occupationId;
 
   ngOnInit() {
+    this.activatedRoute.params.subscribe((params: Params) => {
+      this.occupationId = params['id'];
+      console.log(this.occupationId);
+    });
   }
 
 }
