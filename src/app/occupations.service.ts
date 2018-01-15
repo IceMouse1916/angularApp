@@ -16,4 +16,8 @@ export class OccupationsService {
   getOccupationById(id){
     return this.http.get('http://localhost:3000/occupations?id=' + id); 
   }
+
+  getOccupationsWithParameters(salary, stress, education){
+    return this.http.get('http://localhost:3000/occupations?salary_gte=' + salary +'&stress_lte=' + stress + '&education='+ education);
+  }
 }
