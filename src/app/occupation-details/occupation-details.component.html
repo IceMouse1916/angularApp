@@ -1,8 +1,8 @@
 <div *ngIf="occupation">
-  <h3>{{occupation.label}}</h3>
+  <h3 class="text-center">{{occupation.label}}</h3>
   <p>{{occupation.description}}</p>
+  <div *ngIf="safeUrl" class="text-center">
   <iframe width="560" height="315" [src]='safeUrl' frameborder="0" allowfullscreen></iframe>
-  <button type="button" class="btn btn-primary" routerLink="/search">Back to searcher</button>
- 
-
+  </div>
+  <button type="button" class="btn btn-block btn-outline-primary" routerLink="/search">Back to searcher</button>
 </div>

@@ -22,7 +22,6 @@ export class OccupationDetailsComponent implements OnInit {
       this.occupationService.getOccupationById(id).subscribe( (occupation) => {
         this.occupation = occupation[0];
         this.safeUrl = this.sanitizer.bypassSecurityTrustResourceUrl(this.occupation.video);
-        console.log(this.occupation);
       })
     });
   }
