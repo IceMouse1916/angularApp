@@ -14,6 +14,7 @@ import { AdvancedSearchComponent } from './advanced-search/advanced-search.compo
 import { StartPageComponent } from './start-page/start-page.component';
 
 import { OccupationsService } from './occupations.service';
+import { UsersService } from './users.service';
 
 import { HttpClientModule } from '@angular/common/http';
 import { OccupationsListComponent } from './occupations-list/occupations-list.component';
@@ -41,7 +42,9 @@ import { LogInComponent } from './log-in/log-in.component';
     FormsModule
   ],
   providers: [
-    OccupationsService
+    OccupationsService,
+    UsersService
+
   ],
   bootstrap: [AppComponent]
 })

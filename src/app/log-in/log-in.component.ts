@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import { UsersService } from '../users.service';
+
 @Component({
   selector: 'nk-log-in',
   templateUrl: './log-in.component.html',
@@ -7,9 +9,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LogInComponent implements OnInit {
 
-  constructor() { }
+  constructor( private user: UsersService) { }
 
   ngOnInit() {
   }
 
+ 
 }
