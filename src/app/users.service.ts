@@ -9,7 +9,7 @@ export class UsersService {
 
   private static user="Noname";
   private static favourites=[];
-  private static reccomended=[];
+  private static recommended=[];
 
   constructor(private http: HttpClient) { }
 
@@ -29,12 +29,12 @@ export class UsersService {
     return UsersService.favourites;
   }
 
-  setreccomended(value){
-    UsersService.reccomended = value;
+  setrecommended(value){
+    UsersService.recommended = value;
   }
 
-  getreccomended(){
-    return UsersService.reccomended;
+  getrecommended(){
+    return UsersService.recommended;
   }
 
   isUserExist(login, password){

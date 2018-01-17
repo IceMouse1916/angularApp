@@ -20,6 +20,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { OccupationsListComponent } from './occupations-list/occupations-list.component';
 import { OccupationDetailsComponent } from './occupation-details/occupation-details.component';
 import { LogInComponent } from './log-in/log-in.component';
+import { RecommendedComponent } from './recommended/recommended.component';
 
 
 @NgModule({
@@ -33,7 +34,8 @@ import { LogInComponent } from './log-in/log-in.component';
     StartPageComponent,
     OccupationsListComponent,
     OccupationDetailsComponent,
-    LogInComponent
+    LogInComponent,
+    RecommendedComponent
   ],
   imports: [
     BrowserModule,

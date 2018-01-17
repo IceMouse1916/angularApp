@@ -8,12 +8,14 @@ import { AdvancedSearchComponent } from './advanced-search/advanced-search.compo
 import { StartPageComponent } from './start-page/start-page.component';
 import { OccupationDetailsComponent } from './occupation-details/occupation-details.component';
 import { LogInComponent } from './log-in/log-in.component';
+import { RecommendedComponent } from './recommended/recommended.component'
 
 
 const routes: Routes = [
   {path:'search', component: SearchComponent},
   {path:'test', component: TestComponent},
   {path:'favourites', component: FavouritesComponent},
+  {path:'recommended', component: RecommendedComponent},
   {path:'search/advanced', component: AdvancedSearchComponent},
   {path:'start', component: StartPageComponent},
   {path: '', redirectTo: 'search', pathMatch: 'full'},
