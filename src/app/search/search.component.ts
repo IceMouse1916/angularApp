@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { OccupationsService } from '../occupations.service';
 
-import { UsersService } from '../users.service';
+
 
 @Component({
   selector: 'nk-search',
@@ -10,7 +10,7 @@ import { UsersService } from '../users.service';
 })
 export class SearchComponent implements OnInit {
 
-  constructor(private occupationService: OccupationsService, private user: UsersService) { }
+  constructor(private occupationService: OccupationsService) { }
 
   ngOnInit() {
   }

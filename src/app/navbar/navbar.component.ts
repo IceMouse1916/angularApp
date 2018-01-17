@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import { UsersService } from '../users.service';
+
 @Component({
   selector: 'nk-navbar',
   templateUrl: './navbar.component.html',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor() { }
+  constructor(private user: UsersService) { }
+
+  userName;
 
   ngOnInit() {
+    this.userName = this.user.getUser();
   }
 
 }

@@ -7,9 +7,9 @@ import { Observable } from 'rxjs/Observable';
 @Injectable()
 export class UsersService {
 
-  private static user="noname";
+  private static user="Noname";
 
-  constructor() { }
+  constructor(private http: HttpClient) { }
 
   setUser(value){
     UsersService.user = value;
@@ -18,4 +18,9 @@ export class UsersService {
   getUser(){
     return UsersService.user;
   }
+
+  isUserExist(login, password){
+    return this.http.get('http://localhost:3000/users?login='+login+'&password='+password);
+  }
+
 }
