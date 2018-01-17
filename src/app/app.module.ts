@@ -18,6 +18,7 @@ import { OccupationsService } from './occupations.service';
 import { HttpClientModule } from '@angular/common/http';
 import { OccupationsListComponent } from './occupations-list/occupations-list.component';
 import { OccupationDetailsComponent } from './occupation-details/occupation-details.component';
+import { LogInComponent } from './log-in/log-in.component';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { OccupationDetailsComponent } from './occupation-details/occupation-deta
     AdvancedSearchComponent,
     StartPageComponent,
     OccupationsListComponent,
-    OccupationDetailsComponent
+    OccupationDetailsComponent,
+    LogInComponent
   ],
   imports: [
     BrowserModule,
