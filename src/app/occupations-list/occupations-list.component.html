@@ -5,6 +5,8 @@
         <th>Average Salary</th>
         <th>Stress level</th>
         <th>Education Level</th>
+        <th>Favouirite</th>
+        <th>Recommended</th>
       </tr>
     </thead>
     <tbody>
@@ -15,6 +17,9 @@
         <td *ngIf="occupation.education === 1">Basic</td>
         <td *ngIf="occupation.education === 2">Secondary</td>
         <td *ngIf="occupation.education === 3">Higher</td>
+        <td><span *ngIf="isFavouirite(occupation.id)">favourite</span></td>
+        <td><span *ngIf="isRecommended(occupation.id)">Recommended</span></td>
       </tr>
     </tbody>
   </table>
+
