@@ -18,6 +18,6 @@ export class OccupationsService {
   }
 
   getOccupationsWithParameters(salary, stress, education){
-    return this.http.get('http://localhost:3000/occupations?salary_gte=' + salary +'&stress_lte=' + stress + '&education='+ education);
+    return this.http.get('http://localhost:3000/occupations?salary_gte=' + salary +'&stress_lte=' + stress + '&education_lte='+ education);
   }
 }
