@@ -10,6 +10,7 @@ export class UsersService {
   private static user="Noname";
   private static favourites=[];
   private static recommended=[];
+  private static userId;
 
   constructor(private http: HttpClient) { }
 
@@ -35,6 +36,14 @@ export class UsersService {
 
   getrecommended(){
     return UsersService.recommended;
+  }
+
+  setuserId(value){
+    UsersService.userId = value;
+  }
+
+  getuserID(){
+    return UsersService.userId;
   }
 
   isUserExist(login, password){
