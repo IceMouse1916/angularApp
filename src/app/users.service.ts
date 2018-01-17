@@ -4,46 +4,18 @@ import { HttpClient } from '@angular/common/http';
 
 import { Observable } from 'rxjs/Observable';
 
+import { BehaviorSubject } from 'rxjs/BehaviorSubject';
+
 @Injectable()
 export class UsersService {
-
-  private static user="Noname";
-  private static favourites=[];
-  private static recommended=[];
-  private static userId;
-
+ 
   constructor(private http: HttpClient) { }
 
-  setUser(value){
-    UsersService.user = value;
-  }
+  private userSource = new BehaviorSubject([]);
+  currentUser = this.userSource.asObservable();
 
-  getUser(){
-    return UsersService.user;
-  }
-
-  setfavourites(value){
-    UsersService.favourites = value;
-  }
-
-  getfavourites(){
-    return UsersService.favourites;
-  }
-
-  setrecommended(value){
-    UsersService.recommended = value;
-  }
-
-  getrecommended(){
-    return UsersService.recommended;
-  }
-
-  setuserId(value){
-    UsersService.userId = value;
-  }
-
-  getuserID(){
-    return UsersService.userId;
+  updateUser(user){
+    this.userSource.next(user);
   }
 
   isUserExist(login, password){

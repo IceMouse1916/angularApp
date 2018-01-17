@@ -14,7 +14,9 @@ export class RecommendedComponent implements OnInit {
   data;
 
   ngOnInit() {
-    this.data = this.user.getrecommended();
+    this.user.currentUser.subscribe(response => {
+      this.data = response["recommended"];
+    })
   }
 
 }

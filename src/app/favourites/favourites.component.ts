@@ -14,7 +14,9 @@ export class FavouritesComponent implements OnInit {
   data;
 
   ngOnInit() {
-    this.data = this.user.getfavourites();
+    this.user.currentUser.subscribe(response => {
+      this.data = response["favourites"];
+    })
   }
 
 }
