@@ -19,6 +19,8 @@ export class LogInComponent implements OnInit {
     this.user.isUserExist(login, password).subscribe(response =>{
       if(response[0] !== undefined){ 
         this.user.setUser(response[0].login);
+        this.user.setfavourites(response[0].favourites);
+        this.user.setreccomended(response[0].reccomended);
         this.router.navigateByUrl('/search');
       }else{
         this.errorMessage = "Wrong login or password!!!"

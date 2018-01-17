@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import { UsersService } from '../users.service';
+
 @Component({
   selector: 'nk-favourites',
   templateUrl: './favourites.component.html',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FavouritesComponent implements OnInit {
 
-  constructor() { }
+  constructor(private user: UsersService) { }
+
+  data;
 
   ngOnInit() {
+    this.data = this.user.getfavourites();
   }
 
 }
