@@ -21,6 +21,7 @@ import { OccupationsListComponent } from './occupations-list/occupations-list.co
 import { OccupationDetailsComponent } from './occupation-details/occupation-details.component';
 import { LogInComponent } from './log-in/log-in.component';
 import { RecommendedComponent } from './recommended/recommended.component';
+import { BackButtonComponent } from './back-button/back-button.component';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { RecommendedComponent } from './recommended/recommended.component';
     OccupationsListComponent,
     OccupationDetailsComponent,
     LogInComponent,
-    RecommendedComponent
+    RecommendedComponent,
+    BackButtonComponent
   ],
   imports: [
     BrowserModule,

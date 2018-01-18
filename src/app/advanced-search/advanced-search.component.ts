@@ -29,4 +29,6 @@ export class AdvancedSearchComponent implements OnInit {
       this.occupations = occupations;
     })
   }
+
+ 
 }

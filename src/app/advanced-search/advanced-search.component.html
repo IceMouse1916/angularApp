@@ -13,7 +13,7 @@
       </select>
   </form>
   <button type="button" style="margin-top:20px;" class="btn btn-block btn-outline-primary" (click)="searchWithParameters(nkSalary, nkStressLevel, nkEducation)">Search</button>
-  <button type="button" class="btn btn-block btn-outline-primary" routerLink="/search">Back to searcher</button>
+  <nk-back-button></nk-back-button>
 </div>
 
 <nk-occupations-list [nkDataToRender]="occupations"></nk-occupations-list>
