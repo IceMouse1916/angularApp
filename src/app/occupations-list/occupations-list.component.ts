@@ -37,5 +37,12 @@ export class OccupationsListComponent implements OnInit {
     return false;
   }
 
+  addToFavouirite(occupation){
+    let user;
+    this.user.currentUser.subscribe(response => user = response);
+    user.favourites.push(occupation);
+    this.user.updateUser(user);
+  }
+
 
 }

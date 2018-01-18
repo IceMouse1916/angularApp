@@ -9,7 +9,11 @@
     </thead>
     <tbody>
       <tr *ngFor="let occupation of nkDataToRender" [routerLink]="['/occupation', occupation.id]" >
-        <td> {{occupation.label}}<span *ngIf="isThatOccupation(occupation.id, favourite)" style="color:red"> fav</span><span *ngIf="isThatOccupation(occupation.id, recommended)" style="color:blue"> rec</span></td>
+        <td> {{occupation.label}}
+          <span *ngIf="isThatOccupation(occupation.id, favourite)" style="color:red"> favourite</span>
+          <button type="button" class="btn btn-sm btn-primary" *ngIf="!isThatOccupation(occupation.id, favourite)" (click)="$event.stopPropagation(); addToFavouirite(occupation)"> add to fav</button>
+          <span *ngIf="isThatOccupation(occupation.id, recommended)" style="color:blue"> recommended</span>
+        </td>
         <td> {{occupation.salary}} PLN</td>
         <td> {{occupation.stress}} / 10</td>
         <td *ngIf="occupation.education === 1">Basic</td>
