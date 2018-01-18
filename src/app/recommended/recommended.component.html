@@ -1,3 +1,4 @@
 <nk-navbar>
   <nk-occupations-list [nkDataToRender]="data"></nk-occupations-list>
+  <nk-identify-yourself *ngIf="!data"></nk-identify-yourself>
 </nk-navbar>

@@ -10,9 +10,13 @@
     <tbody>
       <tr *ngFor="let occupation of nkDataToRender" [routerLink]="['/occupation', occupation.id]" title="Click for details">
         <td> {{occupation.label}}
+          <span *ngIf="favourite">
           <span *ngIf="isThatOccupation(occupation.id, favourite)" title="Delete from favourite" style="color:orange; cursor:pointer; font-size: 24px" (click)="$event.stopPropagation(); removeFromFavouirite(occupation.id)"> &#x02605;</span>
           <span *ngIf="!isThatOccupation(occupation.id, favourite)" title="Add to favourite" style="color:orange; cursor:pointer; font-size: 24px" (click)="$event.stopPropagation(); addToFavouirite(occupation)"> &#x02606;</span>
+          </span>
+          <span *ngIf="recommended">
           <span *ngIf="isThatOccupation(occupation.id, recommended)" title="Recommended from test" class="badge badge-info">Recommended</span>
+          </span>
         </td>
         <td> {{occupation.salary}} PLN</td>
         <td> {{occupation.stress}} / 10</td>

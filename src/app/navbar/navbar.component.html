@@ -19,10 +19,12 @@
           </li>
           <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Hello, {{userName}}
+                Hello, <span *ngIf="userName">{{userName}}</span>  <span *ngIf="!userName">Guest</span>
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" routerLink="/login">Sign out</a>
+                <a class="dropdown-item" *ngIf="userName" routerLink="/login">Sign out</a>
+                <a class="dropdown-item" *ngIf="!userName" routerLink="/login">Sign in</a>
+                <a class="dropdown-item" *ngIf="!userName" routerLink="/signup">Sign up</a>
               </div>
         </li>
       </ul>

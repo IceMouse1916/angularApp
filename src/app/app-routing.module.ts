@@ -8,7 +8,8 @@ import { AdvancedSearchComponent } from './advanced-search/advanced-search.compo
 import { StartPageComponent } from './start-page/start-page.component';
 import { OccupationDetailsComponent } from './occupation-details/occupation-details.component';
 import { LogInComponent } from './log-in/log-in.component';
-import { RecommendedComponent } from './recommended/recommended.component'
+import { RecommendedComponent } from './recommended/recommended.component';
+import { SignUpComponent } from './sign-up/sign-up.component';
 
 
 const routes: Routes = [
@@ -20,7 +21,8 @@ const routes: Routes = [
   {path:'start', component: StartPageComponent},
   {path: '', redirectTo: 'login', pathMatch: 'full'},
   {path:'occupation/:id', component: OccupationDetailsComponent},
-  {path:'login', component: LogInComponent}
+  {path:'login', component: LogInComponent},
+  {path:'signup', component: SignUpComponent}
 ];
 
 @NgModule({

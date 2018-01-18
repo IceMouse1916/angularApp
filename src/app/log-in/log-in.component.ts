@@ -21,7 +21,7 @@ export class LogInComponent implements OnInit {
         this.user.updateUser(response[0])
         this.router.navigateByUrl('/search');
       }else{
-        this.errorMessage = "Wrong login or password!!!"
+        this.errorMessage = "Wrong login or password!"
       }
     })
   }

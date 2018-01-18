@@ -22,6 +22,8 @@ import { OccupationDetailsComponent } from './occupation-details/occupation-deta
 import { LogInComponent } from './log-in/log-in.component';
 import { RecommendedComponent } from './recommended/recommended.component';
 import { BackButtonComponent } from './back-button/back-button.component';
+import { SignUpComponent } from './sign-up/sign-up.component';
+import { IdentifyYourselfComponent } from './identify-yourself/identify-yourself.component';
 
 
 @NgModule({
@@ -37,7 +39,9 @@ import { BackButtonComponent } from './back-button/back-button.component';
     OccupationDetailsComponent,
     LogInComponent,
     RecommendedComponent,
-    BackButtonComponent
+    BackButtonComponent,
+    SignUpComponent,
+    IdentifyYourselfComponent
   ],
   imports: [
     BrowserModule,
