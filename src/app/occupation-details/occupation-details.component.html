@@ -1,13 +1,18 @@
-<div *ngIf="occupation">
-  <h3 class="text-center">{{occupation.label}}</h3>
-  <p>{{occupation.description}}</p>
-  <div *ngIf="safeUrl" class="text-center">
-  <iframe width="560" height="315" [src]='safeUrl' frameborder="0" allowfullscreen></iframe>
-  <h6>Average Salary: {{occupation.salary}}</h6>
-  <h6>Stress Level: {{occupation.stress}}</h6>
-  <h6 *ngIf="occupation.education === 1">Education Level: Basic</h6>
-  <h6 *ngIf="occupation.education === 2">Education Level: Secondary</h6>
-  <h6 *ngIf="occupation.education === 3">Education Level: Higher</h6>
-  </div>
-  <nk-back-button></nk-back-button>
-</div>
+  <div class="card text-center" *ngIf="occupation">
+      <iframe *ngIf="safeUrl" width="auto" height="350px;" [src]='safeUrl' frameborder="0" allowfullscreen></iframe>
+      <div class="card-block">
+        <h4 class="card-title">{{occupation.label}}</h4>
+        <p class="card-text">{{occupation.description}}</p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Average Salary: {{occupation.salary}} PLN / month</li>
+        <li class="list-group-item">Stress Level: {{occupation.stress}} / 10</li>
+        <li class="list-group-item" *ngIf="occupation.education === 1">Education Level: Basic</li>
+        <li class="list-group-item" *ngIf="occupation.education === 2">Education Level: Secondary</li>
+        <li class="list-group-item" *ngIf="occupation.education === 3">Education Level: Higher</li>
+      </ul>
+    </div>
+    <nk-back-button></nk-back-button>
+
+
+
