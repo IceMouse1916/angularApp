@@ -24,6 +24,7 @@ import { RecommendedComponent } from './recommended/recommended.component';
 import { BackButtonComponent } from './back-button/back-button.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { IdentifyYourselfComponent } from './identify-yourself/identify-yourself.component';
+import { StartComponent } from './start/start.component';
 
 
 @NgModule({
@@ -41,7 +42,8 @@ import { IdentifyYourselfComponent } from './identify-yourself/identify-yourself
     RecommendedComponent,
     BackButtonComponent,
     SignUpComponent,
-    IdentifyYourselfComponent
+    IdentifyYourselfComponent,
+    StartComponent
   ],
   imports: [
     BrowserModule,

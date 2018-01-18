@@ -10,6 +10,7 @@ import { OccupationDetailsComponent } from './occupation-details/occupation-deta
 import { LogInComponent } from './log-in/log-in.component';
 import { RecommendedComponent } from './recommended/recommended.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
+import { StartComponent } from './start/start.component';
 
 
 const routes: Routes = [
@@ -18,8 +19,9 @@ const routes: Routes = [
   {path:'favourites', component: FavouritesComponent},
   {path:'recommended', component: RecommendedComponent},
   {path:'search/advanced', component: AdvancedSearchComponent},
-  {path:'start', component: StartPageComponent},
-  {path: '', redirectTo: 'login', pathMatch: 'full'},
+  // {path:'start', component: StartPageComponent},
+  {path:'start', component: StartComponent},
+  {path: '', redirectTo: 'start', pathMatch: 'full'},
   {path:'occupation/:id', component: OccupationDetailsComponent},
   {path:'login', component: LogInComponent},
   {path:'signup', component: SignUpComponent}
