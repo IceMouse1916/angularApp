@@ -18,7 +18,7 @@ const routes: Routes = [
   {path:'recommended', component: RecommendedComponent},
   {path:'search/advanced', component: AdvancedSearchComponent},
   {path:'start', component: StartPageComponent},
-  {path: '', redirectTo: 'search', pathMatch: 'full'},
+  {path: '', redirectTo: 'login', pathMatch: 'full'},
   {path:'occupation/:id', component: OccupationDetailsComponent},
   {path:'login', component: LogInComponent}
 ];

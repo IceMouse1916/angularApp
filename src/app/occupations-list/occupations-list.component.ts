@@ -12,10 +12,30 @@ export class OccupationsListComponent implements OnInit {
   @Input()
   nkDataToRender;
 
-  constructor() { }
+  constructor( private user: UsersService) { }
   
   ngOnInit() {
+    this.user.currentUser.subscribe(response => {
+      this.recommended = response["recommended"];
+    })
+    this.user.currentUser.subscribe(response => {
+      this.favourite = response["favourites"];
+      
+    })
   
   }
+
+  favourite;
+  recommended;
+
+  isThatOccupation(id, array){
+    for(let index in array){
+      if(array[index].id === id){
+        return true;
+      }
+    }
+    return false;
+  }
+
 
 }
