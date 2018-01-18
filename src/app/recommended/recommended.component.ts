@@ -19,11 +19,4 @@ export class RecommendedComponent implements OnInit {
     })
   }
 
-  delete(){
-    let user;
-    this.user.currentUser.subscribe(response => user = response);
-    user.recommended.pop();
-    this.user.updateUser(user);
-  }
-
 }
