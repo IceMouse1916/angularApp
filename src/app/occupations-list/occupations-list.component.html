@@ -13,6 +13,7 @@
           <span *ngIf="isThatOccupation(occupation.id, favourite)" style="color:red"> favourite</span>
           <button type="button" class="btn btn-sm btn-primary" *ngIf="!isThatOccupation(occupation.id, favourite)" (click)="$event.stopPropagation(); addToFavouirite(occupation)"> add to fav</button>
           <span *ngIf="isThatOccupation(occupation.id, recommended)" style="color:blue"> recommended</span>
+          <button type="button" class="btn btn-sm btn-danger" *ngIf="isThatOccupation(occupation.id, favourite)" (click)="$event.stopPropagation(); removeFromFavouirite(occupation.id)"> remove from fav</button>
         </td>
         <td> {{occupation.salary}} PLN</td>
         <td> {{occupation.stress}} / 10</td>

@@ -44,5 +44,17 @@ export class OccupationsListComponent implements OnInit {
     this.user.updateUser(user);
   }
 
+  removeFromFavouirite(id){
+    let user;
+    this.user.currentUser.subscribe(response => user = response);
+    for(let index in user.favourites){
+      if(user.favourites[index].id === id){
+          user.favourites.splice(index, 1);
+          break;
+      }
+    }
+    this.user.updateUser(user);
+  }
+
 
 }
