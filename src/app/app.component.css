@@ -1,0 +1,6 @@
+/* dodalam tło dla wszystkich */
+.container {
+  background-image: url("../assets/BG1.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+}
