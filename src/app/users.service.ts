@@ -17,8 +17,6 @@ export class UsersService {
   private userSource = new BehaviorSubject([]);
   currentUser = this.userSource.asObservable();
 
-  currentUserId;
-
   updateUser(user){
     this.userSource.next(user);
   }
@@ -51,7 +49,6 @@ export class UsersService {
         if(response[0] !== undefined){ 
           this.updateUser(response[0])
           this.router.navigateByUrl('/search');
-          this.currentUserId = response[0].id;
         }
       })
     }
