@@ -4,7 +4,6 @@
     <input class="form-control"  [(ngModel)]="login" type="text" autofocus>
     <h6  style="margin-top:10px;">Password:</h6>
     <input class="form-control"  [(ngModel)]="password" type="password">
-    <h6 *ngIf="errorMessage" class="text-center" style="color:red; margin-top:10px;">{{errorMessage}}</h6>
     <button type="button"  style="margin-top:10px;" class="btn btn-block btn-outline-primary" (click)="logIn(login, password)">Log in</button>
     
     
