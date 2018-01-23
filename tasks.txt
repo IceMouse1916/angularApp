@@ -1,0 +1,3 @@
+1. search component po zmianie kartoteki znika wartosc wpisana w input = dodatac ngModel na inpucie i przechowac wartosc w pliku ts tak zeby po zniknieci na *ngIf wartosc zostala przechowana
+2. routerLinkActive="klasaCSS" - powoduje ze dodaje klase css do aktywnego routerLinku
+3. jak sie wyloguje to ma znikac fav i rec uzytkonika 

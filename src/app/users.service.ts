@@ -22,4 +22,20 @@ export class UsersService {
     return this.http.get('http://localhost:3000/users?login='+login+'&password='+password);
   }
 
+  registerNewUser(login, password){
+    let newUser = this.createNewUser(login, password);
+    console.log(newUser);
+    this.http.post('http://localhost:3000/users/', newUser).subscribe();
+  }
+
+  private createNewUser(login, password){
+    let newUser={
+      login: login,
+      password: password,
+      favourite: [],
+      recommended: []
+    }
+    return newUser;
+  }
+
 }
