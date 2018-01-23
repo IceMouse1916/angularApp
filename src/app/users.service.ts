@@ -17,7 +17,7 @@ export class UsersService {
   private userSource = new BehaviorSubject([]);
   currentUser = this.userSource.asObservable();
 
-  private currentUserId;
+  currentUserId;
 
   updateUser(user){
     this.userSource.next(user);
@@ -51,7 +51,12 @@ export class UsersService {
         if(response[0] !== undefined){ 
           this.updateUser(response[0])
           this.router.navigateByUrl('/search');
+          this.currentUserId = response[0].id;
         }
       })
     }
+
+  updateUserOnServer(id, user){
+    this.http.put(`http://localhost:3000/users/${id}`, user).subscribe();
+  }
 }

@@ -685,6 +685,48 @@
           "description": "Metallurgists are concerned with the extraction and processing of various metals and alloys. You will investigate and examine the performance of metals such as iron, steel, aluminium, nickel and copper and use them to produce a range of useful products and materials with certain properties. You may be at the forefront of new technologies, developing metals for new applications, or involved in the traditional manufacture of anything from razor blades to washing machines. You'll often work in multidisciplinary teams of engineers, scientists and business professionals."
         }
       ]
+    },
+    {
+      "login": "norbi",
+      "password": "1234",
+      "favourites": [
+        {
+          "id": 40,
+          "label": "fashion designer",
+          "stress": 4,
+          "salary": 4100,
+          "education": 1,
+          "video": "https://www.youtube.com/embed/WZr8KXh3LZg",
+          "description": "As a fashion designer you'll work on the design of clothing and fashion ranges. You'll typically specialise in one area of design, such as sportswear, children's wear, footwear or accessories. Depending on your level of responsibility and the company you work for, you may work to your own brief or be given a brief to work towards, with specifications relating to colour, fabric and budget."
+        },
+        {
+          "id": 45,
+          "label": "public librarian",
+          "stress": 2,
+          "salary": 2200,
+          "education": 1,
+          "video": "https://www.youtube.com/embed/hwQn77Y5qtg",
+          "description": "As a public librarian you'll acquire, organise and provide access to a range of information and reading resources to meet the diverse needs of the community. Public librarians are proficient in the use of ICT as part of the role involves assisting the public in accessing the internet and other web-based services. You may also spend time talking to, and building up relationships with, members of the public and assisting with specific learning needs or community groups. Public librarians run events in the library for the community and work with local schools and colleges."
+        },
+        {
+          "id": 14,
+          "label": "barrister ",
+          "stress": 4,
+          "salary": 2700,
+          "education": 1,
+          "video": "https://www.youtube.com/embed/TpMJ2XlzO-0",
+          "description": "A barrister is a lawyer who gives expert legal advice and represents their clients in court. A barrister doesn’t tend to be a jack of all legal trades. In fact, they usually focus on a specific area of law. For instance, they might only deal with criminal law cases; they might only represent companies in commercial law matters; or they might solely focus on medical negligence lawsuits."
+        }
+      ],
+      "recommended": [],
+      "id": 2
+    },
+    {
+      "login": "norbi",
+      "password": "1234",
+      "favourites": [],
+      "recommended": [],
+      "id": 3
     }
   ]
 }

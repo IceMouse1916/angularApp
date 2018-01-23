@@ -42,6 +42,7 @@ export class OccupationsListComponent implements OnInit {
     this.user.currentUser.subscribe(response => user = response);
     user.favourites.push(occupation);
     this.user.updateUser(user);
+    this.user.updateUserOnServer(user.id, user);
   }
 
   removeFromFavouirite(id){
@@ -54,6 +55,7 @@ export class OccupationsListComponent implements OnInit {
       }
     }
     this.user.updateUser(user);
+    this.user.updateUserOnServer(user.id, user);
   }
 
 
