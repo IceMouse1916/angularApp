@@ -1,7 +1,23 @@
 <nk-navbar>
 
-<h6 class="text-center">Test your work predisposition.</h6>
+    <nk-identify-yourself *ngIf="!userName"></nk-identify-yourself>
 
-
+    <div *ngIf="userName">
+        <div *ngIf="!testVisibility">
+            <h6>Start your work predisposition test!</h6>
+            <small>*Earlier results will be overrided!</small>
+            <button type="button" style="margin-top:10px;" class="btn btn-block btn-outline-primary" (click)="showTest()">Start Test!</button>
+        </div>
+        <div *ngIf="testVisibility">
+            <div style="margin-top:20px;" *ngFor="let question of questions">
+                <h6>{{question.text}}</h6>
+                <div>
+                    <input type="radio" [name]="question.id" value="1" (click)="incScore()">Yes
+                    <input type="radio" [name]="question.id" value="0" (click)="decScore()">No
+                </div>
+            </div>
+            <button type="button" style="margin-top:10px;" class="btn btn-block btn-outline-primary" (click)="sendAnswers()">Send your answers</button>
+        </div>
+    </div>
 
 </nk-navbar>
