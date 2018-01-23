@@ -2,6 +2,10 @@ import { Component, OnInit } from '@angular/core';
 
 import { UsersService } from '../users.service';
 
+import { OccupationsService } from '../occupations.service';
+
+import {Router} from '@angular/router';
+
 @Component({
   selector: 'nk-test',
   templateUrl: './test.component.html',
@@ -9,7 +13,7 @@ import { UsersService } from '../users.service';
 })
 export class TestComponent implements OnInit {
 
-  constructor(private user: UsersService) { }
+  constructor(private user: UsersService, private occupationService: OccupationsService, private router: Router) { }
 
   questions;
   score;
@@ -47,6 +51,26 @@ export class TestComponent implements OnInit {
   }
 
   sendAnswers(){
+    let user;
+    let start;
+    let end;
+    this.user.currentUser.subscribe(response => user = response);
 
+    // very simple logic :)
+    if(this.score > 3){
+      start = 0;
+      end = 8;
+    }else{
+      start = 20;
+      end = 24;
+    }
+
+    this.occupationService.getChosenOccupations(`?_start=${start}&_end=${end}`).subscribe(response => {
+      user.recommended = response;
+      this.user.updateUser(user);
+      this.user.updateUserOnServer(user.id, user);
+      this.router.navigateByUrl('/recommended');
+    });
+    
   }
 }

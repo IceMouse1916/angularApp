@@ -483,6 +483,24 @@
           "education": 3,
           "video": "https://www.youtube.com/embed/asdgRAjGK-M",
           "description": "Architects design houses, buildings and other similar structures. These designs are applied to new buildings, renovations, refurbishments and extensions of existing structures. An architect is involved in the entire construction process, from initial designs, drawings and models of the proposal, to alterations based on client requirements."
+        },
+        {
+          "id": 47,
+          "label": "translator",
+          "stress": 3,
+          "salary": 3100,
+          "education": 2,
+          "video": "https://www.youtube.com/embed/XCrx6vfTKyE",
+          "description": "As a translator, you will convert written material from one or more 'source languages' into the 'target language', making sure that the translated version conveys the meaning of the original as clearly as possible. The target language is normally your mother tongue. Transcreating may also be part of the job, which is a mix of translation, localisation and copywriting, where the text is culturally and linguistically adapted to suit the reader."
+        },
+        {
+          "id": 48,
+          "label": "zoologist",
+          "stress": 2,
+          "salary": 2600,
+          "education": 2,
+          "video": "https://www.youtube.com/embed/Bk7-y1JP8jM",
+          "description": "Zoologists study the evolution, anatomy, physiology, behaviour, distribution and classification of animals. They look at species and populations of animals and work with animals out in the field, in captivity or in a laboratory. As a zoologist, you can specialise in a particular area; for example, working with reptiles and amphibians (herpetologist), mammals (mammologist), birds (ornithologist), fossil remains (paleozoologist) or parasites (parasitologist). Job titles vary greatly and may include zoological field assistant, field biologist, wildlife biologist, conservation biologist or field assistant."
         }
       ],
       "recommended": [
@@ -718,7 +736,44 @@
           "description": "A barrister is a lawyer who gives expert legal advice and represents their clients in court. A barrister doesn’t tend to be a jack of all legal trades. In fact, they usually focus on a specific area of law. For instance, they might only deal with criminal law cases; they might only represent companies in commercial law matters; or they might solely focus on medical negligence lawsuits."
         }
       ],
-      "recommended": [],
+      "recommended": [
+        {
+          "id": 20,
+          "label": "dentists",
+          "stress": 6,
+          "salary": 6400,
+          "education": 3,
+          "video": "https://www.youtube.com/embed/wzv3hxLJCG4",
+          "description": "Dentists truly are the masters of mouth and teeth care, diagnosing and treating the oral diseases and injuries of the great public. The most popular area of dentistry is general dental care. These dentists are the GPs of the dentistry world and work in their own practice. Like GPs, general dentists will experience all sorts of dental problems and treat all kinds of patients, from the elderly to young children."
+        },
+        {
+          "id": 21,
+          "label": "general practice doctor",
+          "stress": 6,
+          "salary": 5000,
+          "education": 3,
+          "video": "https://www.youtube.com/embed/bUHEPAB-gsA",
+          "description": "General practice doctors (a.k.a. general practitioners or GPs) are the charming medical professionals that people go to when they are first seeking medical advice and treatment. The key to understanding the GP’s remit is in the word ‘general’. The GP is the medical world’s jack of all trades. You will need a fantastically broad range of medical knowledge to succeed."
+        },
+        {
+          "id": 22,
+          "label": "architect ",
+          "stress": 6,
+          "salary": 6500,
+          "education": 3,
+          "video": "https://www.youtube.com/embed/asdgRAjGK-M",
+          "description": "Architects design houses, buildings and other similar structures. These designs are applied to new buildings, renovations, refurbishments and extensions of existing structures. An architect is involved in the entire construction process, from initial designs, drawings and models of the proposal, to alterations based on client requirements."
+        },
+        {
+          "id": 23,
+          "label": "electrician",
+          "stress": 3,
+          "salary": 3100,
+          "education": 2,
+          "video": "https://www.youtube.com/embed/PMehYYUiZHo",
+          "description": "The role of electricians is a hugely important one. They are responsible for testing, installing and making the electrotechnical systems that cross our paths every day, and ensuring all the while that they are safe to use by the general public. As an electrician, you might also be responsible for installing electrical equipment and machinery in factories and other industrial settings. It’s pretty heavy-duty work, but if you know your stuff, you can get a real kick from seeing something go from absolutely nothing to being in perfect working order."
+        }
+      ],
       "id": 2
     }
   ]
