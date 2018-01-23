@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import { UsersService } from '../users.service';
+
 @Component({
   selector: 'nk-sign-up',
   templateUrl: './sign-up.component.html',
@@ -7,9 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SignUpComponent implements OnInit {
 
-  constructor() { }
+  constructor(private userService: UsersService) { }
 
   ngOnInit() {
   }
 
+
+  signUp(login, password){
+    this.userService.registerNewUser(login, password);
+  }
 }

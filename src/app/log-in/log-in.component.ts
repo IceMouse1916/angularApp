@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 
 import { UsersService } from '../users.service';
 
-import {Router} from '@angular/router';
 
 @Component({
   selector: 'nk-log-in',
@@ -11,19 +10,11 @@ import {Router} from '@angular/router';
 })
 export class LogInComponent implements OnInit {
 
-  constructor( private user: UsersService, private router: Router) { }
+  constructor( private user: UsersService) { }
 
-  errorMessage;
 
   logIn(login, password){
-    this.user.isUserExist(login, password).subscribe(response =>{
-      if(response[0] !== undefined){ 
-        this.user.updateUser(response[0])
-        this.router.navigateByUrl('/search');
-      }else{
-        this.errorMessage = "Wrong login or password!"
-      }
-    })
+    this.user.logIn(login, password);
   }
 
 

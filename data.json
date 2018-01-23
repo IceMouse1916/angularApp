@@ -1,87 +1,780 @@
 {
-  "occupations":[
-      {"id": 0, "label": "taxi driver", "stress":4, "salary": 4000, "education": 1, "video": "https://www.youtube.com/embed/3U1OCK4xA0w", "description": "Taxi drivers transport people to and from their destinations. They have to be good drivers, and know their way around the area in which they are driving. They often have to go through some form of training, but there are rarely education requirements. Taxi driver jobs require strong customer service skills."},
-      {"id": 1, "label": "nurse", "stress":6, "salary": 3200, "education": 2, "video": "https://www.youtube.com/embed/Sfu0UQ4nw1w", "description": "A nurse is a person who is trained to give care (help) to people who are sick or injured. Nurses work with doctors and other health care workers to make patients well (not sick) and to keep them fit and healthy. Nurses also help with end-of-life needs and assist other family members with grieving. Like doctors, nurses can choose what work they do. Some nurses train and work to help during surgery. Some nurses train to help people understand health problems like nutrition (what to eat), and disease (what can make people sick). Nurses can do many different jobs to help people."},
-      {"id": 2, "label": "firefighter", "stress":8, "salary": 3500, "education": 2, "video": "https://www.youtube.com/embed/jtnK5L0RZRk", "description": "A firefighter is a rescuer extensively trained in firefighting, primarily to extinguish hazardous fires that threaten life, property and/or the environment. Firefighters work closely with other emergency response agencies such as the police and emergency medical service. A firefighter's role may overlap with both. Fire investigators or fire marshals investigate the cause of a fire. If the fire was caused by arson or negligence, their work will overlap with law enforcement. Firefighters also frequently provide some degree of emergency medical service, in addition to working with full-time paramedics."},
-      {"id": 3, "label": "police officer", "stress":7, "salary": 3500, "education": 2, "video": "https://www.youtube.com/embed/n2LcNZ7e2c0", "description": "Responsibilities of a police officer are varied, and may differ greatly from within one political context to another. Typical duties relate to keeping the peace, law enforcement, protection of people and property and the investigation of crimes. Officers are expected to respond to a variety of situations that may arise while they are on duty. Rules and guidelines dictate how an officer should behave within the community, and in many contexts, restrictions are placed on what the uniformed officer wears. They also function to discourage crimes through high-visibility policing, and most police forces have an investigative capability. Police have the legal authority to arrest and detain, usually granted by magistrates."},
-      {"id": 4, "label": "teacher", "stress":6, "salary": 2400, "education": 3, "video": "https://www.youtube.com/embed/ADtVNLlSofY", "description": "A teacher is a person who helps others to acquire knowledge, competences or values. Teachers may provide instruction in literacy and numeracy, craftsmanship or vocational training, the arts, religion, civics, community roles, or life skills. Formal teaching tasks include preparing lessons according to agreed curricula, giving lessons, and assessing pupil progress. A teacher's professional duties may extend beyond formal teaching. Outside of the classroom teachers may accompany students on field trips, supervise study halls, help with the organization of school functions, and serve as supervisors for extracurricular activities. In some education systems, teachers may have responsibility for student discipline."},
-      {"id": 5, "label": "web developer", "stress":2, "salary": 8000, "education": 3, "video": "https://www.youtube.com/embed/URM8F0C5rLs", "description": "Web developers are found working in various types of organizations, including large corporations and governments, small and medium - sized companies, or alone as freelancers. Some web developers work for one organization as a permanent full-time employee, while others may work as independent consultants, or as contractors for an employment agency. Web developers typically handle both server-side and front-end logic. This usually involves implementing all the visual elements that users see and use in the web application, as well as all the web services and APIs that are necessary to power the front-end."},
-      {"id": 6, "label": "bodyguard", "stress":9, "salary": 4000, "education": 1, "video": "https://www.youtube.com/embed/d7Dz34-cZ74", "description": "A bodyguard is someone who looks out for the personal security of individuals. Bodyguards work either alone or as part of a security team, and are trained to jump to action and defend their clients in any situation where there is a threat of harassment or attack. They protect public officials, wealthy people, and celebrities from kidnapping, assassination, harassment, theft, assault, loss of confidential information, threats, and other criminal offences."},
-      {"id": 7, "label": "flight pilot", "stress":7, "salary": 10000, "education": 3, "video": "https://www.youtube.com/embed/TXeIClY-qvY&list=PL6E0F0E84C2A8E607&index=3", "description": "An aircraft pilot or aviator is a person who controls the flight of an aircraft by operating its directional flight controls.Civilian pilots fly aircraft of all types privately for pleasure, charity, or in pursuance of a business, and/or commercially for non-scheduled (charter) and scheduled passenger and cargo air carriers (airlines), corporate aviation, agriculture (crop dusting, etc.), forest fire control, law enforcement, etc."},
-      {"id": 8, "label": "truck driver", "stress":6, "salary": 5000, "education": 1, "video": "https://www.youtube.com/embed/J-KUQ3Nqnn0", "description": "Truck drivers provide an essential service to industrialized societies by transporting finished goods and raw materials over land, typically to and from manufacturing plants, retail and distribution centers. Truck drivers are also responsible for inspecting all their vehicles for mechanical items or issues relating to safe operation."},
-      {"id": 9, "label": "photojournalist", "stress":6, "salary": 3000, "education": 2, "video": "https://youtu.be/embed/Lew1Fii5xXE", "description": "Photojournalists are artistic individuals who developed their talents — talents most professionals devote to shooting wedding photos — and took their art to wherever the action was. Their single images document whole historical epochs in ways no words can, and the photographers themselves often put themselves at great risk to get those history-making shorts. Photojournalist Jeff Widener improvised a lens to take the Pulitzer-nominated Tiananmen Square photograph that became the most recognizable image of the 1989 protests, and his shot is more illustrative of that situation than any textbook description could be."},
-      {"id": 10, "label": "engineer", "stress":6, "salary": 4500, "education": 3, "video": "https://www.youtube.com/embed/yxiqdzLo2Gg", "description": "Working with a combination of math and physics — two things that mystify most people — engineers have been making the entire world work ever since Archimedes declared that, given a place to stand, he could move the Earth. Some engineers are inventors, and are responsible for sweeping changes to the way society functions (cars, computers, and telephones come to mind). Other engineers merely make sure our structures don't fall down and our bridges don't crumble, while military engineers — folks who go into war zones and build things under fire — do the same thing with limited resources and in extreme danger."},
-      {"id": 11, "label": "train driver", "stress":6, "salary": 4200, "education": 2, "video": "https://www.youtube.com/embed/l6okBEMSE54", "description": "As you may have guessed, the primary role of the train driver is to operate the trains they run, attempting to keep to a strict schedule as best as possible whilst keeping their passengers and their cargo safe. There’s other parts to the job as well though, including the technical elements – checking all the equipment before a journey, and making sure that correct protocol is followed throughout the duration of any trip."},
-      {"id": 12, "label": "air traffic controller", "stress":7, "salary": 3700, "education": 3, "video": "https://www.youtube.com/embed/yWmM2VuIpns", "description": "These peoples are responsible for ensuring the smooth and safe passage of aircraft on heavy-traffic routes in and around airports. Essentially, they coordinate the take-offs and landings of several aircraft simultaneously. You will also track their route using radar technologies and provide them with guidance when necessary. Furthermore, you’ll be directing aircraft from the terminal to the runway and from the runway to take-off and vice versa during landing. You’ll be using your expert knowledge to guide aircraft so that they can reach the optimum altitude, speed and cruising level."},
-      {"id": 13, "label": "warehouse menager", "stress":4, "salary": 3300, "education": 2, "video": "https://www.youtube.com/embed/8UzMRuEz1wM", "description": "As a warehouse manager, you are in charge of overseeing the supplies of the company. It is up to the warehouse manager to make sure that the safekeeping and dispatching of the company’s goods are well accounted for. This is a more complicated system than it might seem. The manager has to create plans and systems for the proper function of the warehouse, make sure that the warehouse is safe, clean and free of any health risks, and handle issues with equipment and warehouse personnel."},
-      {"id": 14, "label": "barrister ", "stress":4, "salary": 2700, "education": 1, "video": "https://www.youtube.com/embed/TpMJ2XlzO-0", "description": "A barrister is a lawyer who gives expert legal advice and represents their clients in court. A barrister doesn’t tend to be a jack of all legal trades. In fact, they usually focus on a specific area of law. For instance, they might only deal with criminal law cases; they might only represent companies in commercial law matters; or they might solely focus on medical negligence lawsuits."},
-      {"id": 15, "label": "banker", "stress":6, "salary": 4200, "education": 3, "video": "https://www.youtube.com/embed/Lzd6wmNBgps", "description": "Bankers provide services to facilitate a variety of financial transactions and help clients to take advantage of a range of financial products, such as loans, bank accounts (e.g. savings, current, overdraft, fixed/recurring deposits and trading accounts) and cash, cheque, electronic and card transactions (e.g. deposits, withdrawals and purchases)."},
-      {"id": 16, "label": "tax inspector", "stress":5, "salary": 2900, "education": 2, "video": "https://www.youtube.com/embed/yO8jfto6LDE", "description": "Tax inspectors are tasked with ensuring that individuals and commercial enterprises pay correct amounts of taxes due within the prescribed deadlines. A tax inspector scrutinises tax returns, carries out investigations on any naughty business, follows said naughty business up with a visit to the offending taxpayer’s premises, and takes it all the way to court where necessary."},
-      {"id": 17, "label": "optometrist", "stress":4, "salary": 2500, "education": 2, "video": "https://www.youtube.com/embed/nhdeagg1ELY", "description": "Optometrists are healthcare professionals trained to examine eyes to detect defects in vision and ocular diseases, such as glaucoma and conjunctivitis. They are the Dr Houses of the eye world: just by looking into someone’s eyes, optometrists can suss out whether that person has certain health problems, such as diabetes or high blood pressure. They also help the visually challenged to see by conducting eye tests, prescribing lenses, therapy or eye exercises."},
-      {"id": 18, "label": "paramedic", "stress":6, "salary": 3000, "education": 2, "video": "https://www.youtube.com/embed/C0pWE_xCKWY", "description": "Paramedics are emergency response medical professionals, trained in making quick diagnoses and administering immediate medical care to victims of accidents, violence and sudden illnesses, such as cardiac arrests or strokes. These peoples also provide quick, controlled transfers to healthcare facilities, keeping patients stable while they’re in transit by using advanced equipment and their medical expertise."},
-      {"id": 19, "label": "psychotherapist", "stress":7, "salary": 4000, "education": 3, "video": "https://www.youtube.com/embed/B6OxWNkxnyU", "description": "Psychotherapists help people to overcome their emotional problems and cope with tough situations using a range of psychological treatments, such as hypnotherapy, cognitive behavioural therapy (CBT) and psychodynamic therapy. As well as talking to people and helping them deal with their problems, psychotherapists are responsible for assessing service users’ needs and then creating an appropriate treatment plan for them, which will provide them with a structured and focused way of addressing their problems."},
-      {"id": 20, "label": "dentists", "stress":6, "salary": 6400, "education": 3, "video": "https://www.youtube.com/embed/wzv3hxLJCG4", "description": "Dentists truly are the masters of mouth and teeth care, diagnosing and treating the oral diseases and injuries of the great public. The most popular area of dentistry is general dental care. These dentists are the GPs of the dentistry world and work in their own practice. Like GPs, general dentists will experience all sorts of dental problems and treat all kinds of patients, from the elderly to young children."},
-      {"id": 21, "label": "general practice doctor", "stress":6, "salary": 5000, "education": 3, "video": "https://www.youtube.com/embed/bUHEPAB-gsA", "description": "General practice doctors (a.k.a. general practitioners or GPs) are the charming medical professionals that people go to when they are first seeking medical advice and treatment. The key to understanding the GP’s remit is in the word ‘general’. The GP is the medical world’s jack of all trades. You will need a fantastically broad range of medical knowledge to succeed."},
-      {"id": 22, "label": "architect ", "stress":6, "salary": 6500, "education": 3, "video": "https://www.youtube.com/embed/asdgRAjGK-M", "description": "Architects design houses, buildings and other similar structures. These designs are applied to new buildings, renovations, refurbishments and extensions of existing structures. An architect is involved in the entire construction process, from initial designs, drawings and models of the proposal, to alterations based on client requirements."},
-      {"id": 23, "label": "electrician", "stress":3, "salary": 3100, "education": 2, "video": "https://www.youtube.com/embed/PMehYYUiZHo", "description": "The role of electricians is a hugely important one. They are responsible for testing, installing and making the electrotechnical systems that cross our paths every day, and ensuring all the while that they are safe to use by the general public. As an electrician, you might also be responsible for installing electrical equipment and machinery in factories and other industrial settings. It’s pretty heavy-duty work, but if you know your stuff, you can get a real kick from seeing something go from absolutely nothing to being in perfect working order."},
-      {"id": 24, "label": "plumber", "stress":3, "salary": 2800, "education": 2, "video": "https://www.youtube.com/embed/bDegV91AawY", "description": "Plumbing isn’t just about gaffing about with some pipes or sticking your hands down toilets – it’s a whole lot more skilled than that. Plumbing careers focus on the installation and repair of various household systems, namely sanitation units (toilets, sinks and baths), heating systems (radiators and boilers) and ventilation appliances (air conditioning). Of course, you don’t just have to work in houses or with water. Some plumbers are specially trained to install and fix gas appliances, whilst others might work in industrial buildings on things like air-conditioning and extraction systems."},
-      {"id": 25, "label": "welder", "stress":3, "salary": 3400, "education": 2, "video": "https://www.youtube.com/embed/fQz_fYPbK2I", "description": "Welders are responsible for cutting, shaping and putting together a variety of different things related to metalwork and piping. They work across industries that spread across the world and beyond, from construction to offshore oil to space travel. You’d be expected to be able to follow engineering drawings and accurately measure different measurements in order to guarantee your work was correct and to a high standard. If using the most powerful tools in the business and taking on high levels of responsibility appeals to you."},
-      {"id": 26, "label": "games developer", "stress":2, "salary": 7500, "education": 3, "video": "https://www.youtube.com/embed/c0o6BPYKBiA", "description": "Games developers use their creative flair and technical prowess to create the video games that keep us glued to the screen for hours, days and sometimes weeks at a time. Creating games for all kinds of platforms, from PCs and PlayStations to iPhones and arcade machines, games developers tend to specialise in one or two areas of the incredibly complex games development process, such as design, programming, testing or 3D modelling."},
-      {"id": 27, "label": "IT consultant", "stress":4, "salary": 5000, "education": 3, "video": "https://www.youtube.com/embed/3u78pz4lHMM", "description": "An I.T. consultant is a technical specialist who works with clients across all kinds of businesses and industries. The consultant primarily provides advice on incorporating or integrating information technology systems to increase commercial efficiency and improve processes, service delivery, customer relationships, capital expenditure and above all, profitability and shareholder value."},
-      {"id": 28, "label": "database administrator", "stress":6, "salary": 10000, "education": 3, "video": "https://www.youtube.com/embed/yAzCBH_o7OE", "description": "Database administrators’ duties vary widely, but a database administrator might be responsible for things like: controlling user access, assessing and improving the performance of the database, and installing, modifying and upgrading database applications. DBAs increasingly specialise in particular types of databases and data management systems, e.g. Oracle or SQL Server. They are also usually responsible for designing, improving and refining databases."},
-      {"id": 29, "label": "prison officer", "stress":7, "salary": 3700, "education": 2, "video": "https://www.youtube.com/embed/Tk2lw6qjdAM", "description": "Prison officers are there to maintain a secure environment (and make sure that no prisoners escape), as well as ensure everybody follows the prison rules and orders. Typical day-to-day duties will include everything from reporting and dealing with incidents, such as bullying, substance abuse and assaults, to carrying out security duties and maintaining order – sometimes physically. There’s a fair bit of paperwork, too, as prison officers will have to submit reports, handle prisoner applications and complete observation books entries."},
-      {"id": 30, "label": "actor", "stress":7, "salary": 12000, "education": 3, "video": "https://www.youtube.com/embed/ltYBLMoyXwY", "description": "Essentially, actors are performers who work across various different media, including theatre, television, radio and film. Some actors also do voiceovers for animated projects, act on television commercials and record audiobooks. An actor’s primary duty is to effectively communicate the character that they are playing to an audience, using their voice, body, actions and reactions. Through their art, actors tell stories, engender emotional reactions in their audience and make people think."},
-      {"id": 31, "label": "lifeguard", "stress":7, "salary": 2300, "education": 1, "video": "https://www.youtube.com/embed/BBLiIbzB4vM", "description": "The role of the lifeguard is to keep people who are in a mass of water, safe from harm. They work at swimming pools, water parks and on the beach in order to keep all the water-loving people safe should something go wrong. The job entails keeping a sharp eye out in case of any accidents, as well as prewarning anyone doing something dangerous about the potential damage caused by their actions. Ultimately, if the worst comes to the worst, the job means you will have to jump in and save them."},
-      {"id": 32, "label": "office manager", "stress":6, "salary": 4200, "education": 3, "video": "https://www.youtube.com/embed/LORNXZSgjpY", "description": "Office managers essentially ensure the smooth running of an office on a day-to-day basis and may manage a team of administrative or support staff. Responsibilities typically include: organising meetings and managing databases, booking transport and accommodation, organising company events or conferences, ordering stationery and furniture, dealing with correspondence, complaints and queries, preparing letters, presentations and reports, supervising and monitoring the work of administrative staff, managing office budgets, liaising with staff, suppliers and clients, implementing and maintaining procedures/office administrative systems, delegating tasks to junior employees, organising induction programmes for new employees, ensuring that health and safety policies are up to date, using a range of software packages, attending meetings with senior management, assisting the organisation's HR function by keeping personnel records up to date, arranging interviews"},
-      {"id": 33, "label": "dietetics", "stress":4, "salary": 2700, "education": 2, "video": "https://www.youtube.com/embed/JZC2DMgub1o", "description": "Dietetics generally work in a preventative role on a one-to-one and a group basis with patients of all ages. Unlike nutritionists who primarily work with people who are ill, dietetics mostly work with people who are healthy. Key responsibilities of the job include: researching how the body's functions are affected by nutrient supply, investigating the relationship between genes and nutrients, studying how diet affects metabolism, examining the process of nourishment and the association between diet, disease and health, providing health advice and promoting healthy eating, advising about special diets, educating health professionals and the public about nutrition, working as part of a multidisciplinary team/supporting the work of other health care professionals."},
-      {"id": 34, "label": "archaeologist", "stress":2, "salary": 2500, "education": 3, "video": "https://www.youtube.com/embed/isi0LvLxb8c", "description": "Archaeologists study past human activity by excavating, dating and interpreting objects and sites of historical interest. They implement excavation projects at historical sites and collect data that informs their understanding of the past. Major responsibilities of the job include: using geophysical surveys and aerial photography to locate suitable excavation sites, planning surveys and excavations,e xamining, documenting and preserving artefacts, producing, compiling and maintaining written, photographic and drawn records and electronic databases, supervising and guiding staff, collecting, analysing and interpreting data, writing reports, papers and other articles for publication, dating and interpreting finds, mathematical, statistical and computational modelling,assessing planning applications for building developers, creating virtual simulations of how sites or artefacts would have looked."},
-      {"id": 35, "label": "careers adviser", "stress":3, "salary": 2300, "education": 2, "video": "https://www.youtube.com/embed/0Ub6Pj2Elng", "description": "Careers advisers are employed by private and public careers offices contracted by the Department for Communities and Learning to provide advice and guidance services. Their clients include adults, young people, the unemployed, career-changers and students in colleges and further education. Typical responsibilities include: assessing personal characteristics, skills and interests via individual interviews and/or group work, providing appropriate help and advice, liaising with schools, employers and professional organisations, promoting and marketing services, writing careers literature, action plans and reports, using specialist computer applications."},
-      {"id": 36, "label": "call centre manager", "stress":7, "salary": 3300, "education": 2, "video": "https://www.youtube.com/embed/orIOwlup-C0", "description": "As the manager of a call centre (also called a contact centre) you will be responsible for the daily running and management of the centre through the effective use of resources. You'll have responsibility for meeting, and possibly setting, customer service targets as well as planning areas of improvement or development. Call centre managers ensure that calls and emails are answered by staff within agreed time scales and in an appropriate manner. Call centre managers liaise with businesses for which they provide the first response, as well as the third parties who supply products to the centre. You'll coordinate and motivate call centre staff and may manage staff recruitment."},
-      {"id": 37, "label": "cardiologist", "stress":9, "salary": 5000, "education": 3, "video": "https://www.youtube.com/embed/evBwgpp6SAM", "description": "Cardiologists are doctors that go on to specialise in diagnosing, treating and preventing diseases that mainly affect the heart and blood vessels. As a cardiologist, you can work with a range of patients, from babies and young infants through to the elderly. You'll typically work with patients to treat ongoing, long-term illnesses or will respond to emergency, potentially life-threatening situations. Some of the diseases you will encounter include high blood pressure, angina, heart disease, heart failure, cardiac arrest and coronary heart disease."},
-      {"id": 38, "label": "catering Manager", "stress":4, "salary": 2900, "education": 2, "video": "https://www.youtube.com/embed/vHX34HN7UZE", "description": "As a catering manager, you will plan, organise and develop the food and beverage services of organisations and businesses, while meeting customer expectations, food and hygiene standards, and financial targets. The role varies according to the size and nature of the business. In a small establishment, you'll usually have a hands-on role and will be involved in the day-to-day running of the operation. In larger organisations, however, you may have the help of other managers and supervisors to handle the different catering functions and catering outlets."},
-      {"id": 39, "label": "epidemiologist", "stress":7, "salary": 3200, "education": 3, "video": "https://www.youtube.com/embed/VtSXqmGBJlQ", "description": "Epidemiologists study the patterns, causes and effects of diseases in groups of people. They can either work in a research setting, focusing on populations as a whole, or as clinical epidemiologists, concentrating on patients. If you're working in research, you'll focus on the patterns and causes of diseases by using statistics and model building to find out whether something occurs and also how it occurs. You'll study samples of the population that include healthy and unhealthy individuals. You won't normally collect the data directly from affected groups, but will analyse data given to you. Your work will inform public health policies and global strategies in order to prevent future outbreaks and epidemics of a disease. By contrast, if you're working in a clinical setting, you'll study the disease in individual patients and focus on how the disease has developed. This area of work is best suited to medically-qualified epidemiologists."},
-      {"id": 40, "label": "fashion designer", "stress":4, "salary": 4100, "education": 1, "video": "https://www.youtube.com/embed/WZr8KXh3LZg", "description": "As a fashion designer you'll work on the design of clothing and fashion ranges. You'll typically specialise in one area of design, such as sportswear, children's wear, footwear or accessories. Depending on your level of responsibility and the company you work for, you may work to your own brief or be given a brief to work towards, with specifications relating to colour, fabric and budget."},
-      {"id": 41, "label": "freight forwarder", "stress":4, "salary": 2800, "education": 2, "video": "https://www.youtube.com/embed/Sim2nXew65I", "description": "A freight forwarder is an agent who acts on behalf of importers, exporters or other companies to organise the safe, efficient and cost-effective transportation of goods. You will use computer systems to arrange the best means of transport, taking into account the type of goods and the customers delivery requirements. You'll use the services of shipping lines, airlines and road and rail freight operators. Companies vary in size and type, from those operating on a national and international basis to smaller, more specialised firms, which deal with particular types of goods or operate within particular geographical areas."},
-      {"id": 42, "label": "graphic designer", "stress":4, "salary": 5100, "education": 3, "video": "https://www.youtube.com/embed/Aq8CVKAq0QM", "description": "A graphic designer works on a variety of products and activities, such as websites, advertising, books, magazines, posters, computer games, product packaging, exhibitions and displays, corporate communications and corporate identity, i.e. giving organisations a visual 'brand'. You'll work to a brief agreed with the client, creative director or account manager and will develop creative ideas and concepts. The appropriate media and style has to be chosen to meet the client's objectives. The work demands creative flair, up-to-date knowledge of industry software and a professional approach to time, costs and deadlines."},
-      {"id": 43, "label": "meteorologist", "stress":3, "salary": 2400, "education": 2, "video": "https://www.youtube.com/embed/Oq2tKLdF-_g", "description": "As a meteorologist, you'll predict the weather and study the causes of particular weather conditions using information obtained from the land, sea and upper atmosphere. You'll need to use computerised and mathematical models to make short and long-range forecasts concerning weather and climate patterns. In addition to forecasting, you may also study the impact of weather on the environment and conduct research into weather patterns, climate change and models of weather prediction."},
-      {"id": 44, "label": "mining engineer", "stress":7, "salary": 3700, "education": 3, "video": "https://www.youtube.com/embed/xva5q9L8PxI", "description": "A mining engineer ensures the safe and efficient development of mines and other surface and underground operations. The role combines an understanding of the effects of these structures on their surrounding environment, as well as technical knowledge and management skills. Mining engineers are involved at all stages of a project. Before a new site is developed, they assess its viability and assist with planning the mine's structure. They also manage and oversee mining production processes and are involved in the final closure and rehabilitation process."},
-      {"id": 45, "label": "public librarian", "stress":2, "salary": 2200, "education": 1, "video": "https://www.youtube.com/embed/hwQn77Y5qtg", "description": "As a public librarian you'll acquire, organise and provide access to a range of information and reading resources to meet the diverse needs of the community. Public librarians are proficient in the use of ICT as part of the role involves assisting the public in accessing the internet and other web-based services. You may also spend time talking to, and building up relationships with, members of the public and assisting with specific learning needs or community groups. Public librarians run events in the library for the community and work with local schools and colleges."},
-      {"id": 46, "label": "sound technician, broadcasting/film/video", "stress":5, "salary": 3600, "education": 2, "video": "https://www.youtube.com/embed/7wGl4ysbHNg", "description": "As a sound technician, it's your responsibility to assemble, operate and maintain the technical equipment used to record, amplify, enhance, mix or reproduce sound. You'll identify the sound requirements for a given task or situation and perform the appropriate actions to produce this sound. Job titles vary according to the industry and can include sound assistant, sound recordist and sound supervisor."},
-      {"id": 47, "label": "translator", "stress":3, "salary": 3100, "education": 2, "video": "https://www.youtube.com/embed/XCrx6vfTKyE", "description": "As a translator, you will convert written material from one or more 'source languages' into the 'target language', making sure that the translated version conveys the meaning of the original as clearly as possible. The target language is normally your mother tongue. Transcreating may also be part of the job, which is a mix of translation, localisation and copywriting, where the text is culturally and linguistically adapted to suit the reader."},
-      {"id": 48, "label": "zoologist", "stress":2, "salary": 2600, "education": 2, "video": "https://www.youtube.com/embed/Bk7-y1JP8jM", "description": "Zoologists study the evolution, anatomy, physiology, behaviour, distribution and classification of animals. They look at species and populations of animals and work with animals out in the field, in captivity or in a laboratory. As a zoologist, you can specialise in a particular area; for example, working with reptiles and amphibians (herpetologist), mammals (mammologist), birds (ornithologist), fossil remains (paleozoologist) or parasites (parasitologist). Job titles vary greatly and may include zoological field assistant, field biologist, wildlife biologist, conservation biologist or field assistant."},
-      {"id": 49, "label": "stylist", "stress":4, "salary": 3400, "education": 2, "video": "https://www.youtube.com/embed/GNy0n6qUl4w", "description": "Following a design brief, stylists use their creative skills to produce visually appealing displays, photo shoots or outfits. This is a fast-changing, highly-pressurised role that would suit someone that thrives on being busy, solving problems, collaborating with others and being creative. Communication is key as you'll need to work with a variety of people and agencies to get the job done on time and to a consistently high standard."},
-      {"id": 50, "label": "metallurgist", "stress":5, "salary": 3400, "education": 2, "video": "https://www.youtube.com/embed/edL2VtSqbps", "description": "Metallurgists are concerned with the extraction and processing of various metals and alloys. You will investigate and examine the performance of metals such as iron, steel, aluminium, nickel and copper and use them to produce a range of useful products and materials with certain properties. You may be at the forefront of new technologies, developing metals for new applications, or involved in the traditional manufacture of anything from razor blades to washing machines. You'll often work in multidisciplinary teams of engineers, scientists and business professionals."}
+  "occupations": [
+    {
+      "id": 0,
+      "label": "taxi driver",
+      "stress": 4,
+      "salary": 4000,
+      "education": 1,
+      "video": "https://www.youtube.com/embed/3U1OCK4xA0w",
+      "description": "Taxi drivers transport people to and from their destinations. They have to be good drivers, and know their way around the area in which they are driving. They often have to go through some form of training, but there are rarely education requirements. Taxi driver jobs require strong customer service skills."
+    },
+    {
+      "id": 1,
+      "label": "nurse",
+      "stress": 6,
+      "salary": 3200,
+      "education": 2,
+      "video": "https://www.youtube.com/embed/Sfu0UQ4nw1w",
+      "description": "A nurse is a person who is trained to give care (help) to people who are sick or injured. Nurses work with doctors and other health care workers to make patients well (not sick) and to keep them fit and healthy. Nurses also help with end-of-life needs and assist other family members with grieving. Like doctors, nurses can choose what work they do. Some nurses train and work to help during surgery. Some nurses train to help people understand health problems like nutrition (what to eat), and disease (what can make people sick). Nurses can do many different jobs to help people."
+    },
+    {
+      "id": 2,
+      "label": "firefighter",
+      "stress": 8,
+      "salary": 3500,
+      "education": 2,
+      "video": "https://www.youtube.com/embed/jtnK5L0RZRk",
+      "description": "A firefighter is a rescuer extensively trained in firefighting, primarily to extinguish hazardous fires that threaten life, property and/or the environment. Firefighters work closely with other emergency response agencies such as the police and emergency medical service. A firefighter's role may overlap with both. Fire investigators or fire marshals investigate the cause of a fire. If the fire was caused by arson or negligence, their work will overlap with law enforcement. Firefighters also frequently provide some degree of emergency medical service, in addition to working with full-time paramedics."
+    },
+    {
+      "id": 3,
+      "label": "police officer",
+      "stress": 7,
+      "salary": 3500,
+      "education": 2,
+      "video": "https://www.youtube.com/embed/n2LcNZ7e2c0",
+      "description": "Responsibilities of a police officer are varied, and may differ greatly from within one political context to another. Typical duties relate to keeping the peace, law enforcement, protection of people and property and the investigation of crimes. Officers are expected to respond to a variety of situations that may arise while they are on duty. Rules and guidelines dictate how an officer should behave within the community, and in many contexts, restrictions are placed on what the uniformed officer wears. They also function to discourage crimes through high-visibility policing, and most police forces have an investigative capability. Police have the legal authority to arrest and detain, usually granted by magistrates."
+    },
+    {
+      "id": 4,
+      "label": "teacher",
+      "stress": 6,
+      "salary": 2400,
+      "education": 3,
+      "video": "https://www.youtube.com/embed/ADtVNLlSofY",
+      "description": "A teacher is a person who helps others to acquire knowledge, competences or values. Teachers may provide instruction in literacy and numeracy, craftsmanship or vocational training, the arts, religion, civics, community roles, or life skills. Formal teaching tasks include preparing lessons according to agreed curricula, giving lessons, and assessing pupil progress. A teacher's professional duties may extend beyond formal teaching. Outside of the classroom teachers may accompany students on field trips, supervise study halls, help with the organization of school functions, and serve as supervisors for extracurricular activities. In some education systems, teachers may have responsibility for student discipline."
+    },
+    {
+      "id": 5,
+      "label": "web developer",
+      "stress": 2,
+      "salary": 8000,
+      "education": 3,
+      "video": "https://www.youtube.com/embed/URM8F0C5rLs",
+      "description": "Web developers are found working in various types of organizations, including large corporations and governments, small and medium - sized companies, or alone as freelancers. Some web developers work for one organization as a permanent full-time employee, while others may work as independent consultants, or as contractors for an employment agency. Web developers typically handle both server-side and front-end logic. This usually involves implementing all the visual elements that users see and use in the web application, as well as all the web services and APIs that are necessary to power the front-end."
+    },
+    {
+      "id": 6,
+      "label": "bodyguard",
+      "stress": 9,
+      "salary": 4000,
+      "education": 1,
+      "video": "https://www.youtube.com/embed/d7Dz34-cZ74",
+      "description": "A bodyguard is someone who looks out for the personal security of individuals. Bodyguards work either alone or as part of a security team, and are trained to jump to action and defend their clients in any situation where there is a threat of harassment or attack. They protect public officials, wealthy people, and celebrities from kidnapping, assassination, harassment, theft, assault, loss of confidential information, threats, and other criminal offences."
+    },
+    {
+      "id": 7,
+      "label": "flight pilot",
+      "stress": 7,
+      "salary": 10000,
+      "education": 3,
+      "video": "https://www.youtube.com/embed/TXeIClY-qvY&list=PL6E0F0E84C2A8E607&index=3",
+      "description": "An aircraft pilot or aviator is a person who controls the flight of an aircraft by operating its directional flight controls.Civilian pilots fly aircraft of all types privately for pleasure, charity, or in pursuance of a business, and/or commercially for non-scheduled (charter) and scheduled passenger and cargo air carriers (airlines), corporate aviation, agriculture (crop dusting, etc.), forest fire control, law enforcement, etc."
+    },
+    {
+      "id": 8,
+      "label": "truck driver",
+      "stress": 6,
+      "salary": 5000,
+      "education": 1,
+      "video": "https://www.youtube.com/embed/J-KUQ3Nqnn0",
+      "description": "Truck drivers provide an essential service to industrialized societies by transporting finished goods and raw materials over land, typically to and from manufacturing plants, retail and distribution centers. Truck drivers are also responsible for inspecting all their vehicles for mechanical items or issues relating to safe operation."
+    },
+    {
+      "id": 9,
+      "label": "photojournalist",
+      "stress": 6,
+      "salary": 3000,
+      "education": 2,
+      "video": "https://youtu.be/embed/Lew1Fii5xXE",
+      "description": "Photojournalists are artistic individuals who developed their talents — talents most professionals devote to shooting wedding photos — and took their art to wherever the action was. Their single images document whole historical epochs in ways no words can, and the photographers themselves often put themselves at great risk to get those history-making shorts. Photojournalist Jeff Widener improvised a lens to take the Pulitzer-nominated Tiananmen Square photograph that became the most recognizable image of the 1989 protests, and his shot is more illustrative of that situation than any textbook description could be."
+    },
+    {
+      "id": 10,
+      "label": "engineer",
+      "stress": 6,
+      "salary": 4500,
+      "education": 3,
+      "video": "https://www.youtube.com/embed/yxiqdzLo2Gg",
+      "description": "Working with a combination of math and physics — two things that mystify most people — engineers have been making the entire world work ever since Archimedes declared that, given a place to stand, he could move the Earth. Some engineers are inventors, and are responsible for sweeping changes to the way society functions (cars, computers, and telephones come to mind). Other engineers merely make sure our structures don't fall down and our bridges don't crumble, while military engineers — folks who go into war zones and build things under fire — do the same thing with limited resources and in extreme danger."
+    },
+    {
+      "id": 11,
+      "label": "train driver",
+      "stress": 6,
+      "salary": 4200,
+      "education": 2,
+      "video": "https://www.youtube.com/embed/l6okBEMSE54",
+      "description": "As you may have guessed, the primary role of the train driver is to operate the trains they run, attempting to keep to a strict schedule as best as possible whilst keeping their passengers and their cargo safe. There’s other parts to the job as well though, including the technical elements – checking all the equipment before a journey, and making sure that correct protocol is followed throughout the duration of any trip."
+    },
+    {
+      "id": 12,
+      "label": "air traffic controller",
+      "stress": 7,
+      "salary": 3700,
+      "education": 3,
+      "video": "https://www.youtube.com/embed/yWmM2VuIpns",
+      "description": "These peoples are responsible for ensuring the smooth and safe passage of aircraft on heavy-traffic routes in and around airports. Essentially, they coordinate the take-offs and landings of several aircraft simultaneously. You will also track their route using radar technologies and provide them with guidance when necessary. Furthermore, you’ll be directing aircraft from the terminal to the runway and from the runway to take-off and vice versa during landing. You’ll be using your expert knowledge to guide aircraft so that they can reach the optimum altitude, speed and cruising level."
+    },
+    {
+      "id": 13,
+      "label": "warehouse menager",
+      "stress": 4,
+      "salary": 3300,
+      "education": 2,
+      "video": "https://www.youtube.com/embed/8UzMRuEz1wM",
+      "description": "As a warehouse manager, you are in charge of overseeing the supplies of the company. It is up to the warehouse manager to make sure that the safekeeping and dispatching of the company’s goods are well accounted for. This is a more complicated system than it might seem. The manager has to create plans and systems for the proper function of the warehouse, make sure that the warehouse is safe, clean and free of any health risks, and handle issues with equipment and warehouse personnel."
+    },
+    {
+      "id": 14,
+      "label": "barrister ",
+      "stress": 4,
+      "salary": 2700,
+      "education": 1,
+      "video": "https://www.youtube.com/embed/TpMJ2XlzO-0",
+      "description": "A barrister is a lawyer who gives expert legal advice and represents their clients in court. A barrister doesn’t tend to be a jack of all legal trades. In fact, they usually focus on a specific area of law. For instance, they might only deal with criminal law cases; they might only represent companies in commercial law matters; or they might solely focus on medical negligence lawsuits."
+    },
+    {
+      "id": 15,
+      "label": "banker",
+      "stress": 6,
+      "salary": 4200,
+      "education": 3,
+      "video": "https://www.youtube.com/embed/Lzd6wmNBgps",
+      "description": "Bankers provide services to facilitate a variety of financial transactions and help clients to take advantage of a range of financial products, such as loans, bank accounts (e.g. savings, current, overdraft, fixed/recurring deposits and trading accounts) and cash, cheque, electronic and card transactions (e.g. deposits, withdrawals and purchases)."
+    },
+    {
+      "id": 16,
+      "label": "tax inspector",
+      "stress": 5,
+      "salary": 2900,
+      "education": 2,
+      "video": "https://www.youtube.com/embed/yO8jfto6LDE",
+      "description": "Tax inspectors are tasked with ensuring that individuals and commercial enterprises pay correct amounts of taxes due within the prescribed deadlines. A tax inspector scrutinises tax returns, carries out investigations on any naughty business, follows said naughty business up with a visit to the offending taxpayer’s premises, and takes it all the way to court where necessary."
+    },
+    {
+      "id": 17,
+      "label": "optometrist",
+      "stress": 4,
+      "salary": 2500,
+      "education": 2,
+      "video": "https://www.youtube.com/embed/nhdeagg1ELY",
+      "description": "Optometrists are healthcare professionals trained to examine eyes to detect defects in vision and ocular diseases, such as glaucoma and conjunctivitis. They are the Dr Houses of the eye world: just by looking into someone’s eyes, optometrists can suss out whether that person has certain health problems, such as diabetes or high blood pressure. They also help the visually challenged to see by conducting eye tests, prescribing lenses, therapy or eye exercises."
+    },
+    {
+      "id": 18,
+      "label": "paramedic",
+      "stress": 6,
+      "salary": 3000,
+      "education": 2,
+      "video": "https://www.youtube.com/embed/C0pWE_xCKWY",
+      "description": "Paramedics are emergency response medical professionals, trained in making quick diagnoses and administering immediate medical care to victims of accidents, violence and sudden illnesses, such as cardiac arrests or strokes. These peoples also provide quick, controlled transfers to healthcare facilities, keeping patients stable while they’re in transit by using advanced equipment and their medical expertise."
+    },
+    {
+      "id": 19,
+      "label": "psychotherapist",
+      "stress": 7,
+      "salary": 4000,
+      "education": 3,
+      "video": "https://www.youtube.com/embed/B6OxWNkxnyU",
+      "description": "Psychotherapists help people to overcome their emotional problems and cope with tough situations using a range of psychological treatments, such as hypnotherapy, cognitive behavioural therapy (CBT) and psychodynamic therapy. As well as talking to people and helping them deal with their problems, psychotherapists are responsible for assessing service users’ needs and then creating an appropriate treatment plan for them, which will provide them with a structured and focused way of addressing their problems."
+    },
+    {
+      "id": 20,
+      "label": "dentists",
+      "stress": 6,
+      "salary": 6400,
+      "education": 3,
+      "video": "https://www.youtube.com/embed/wzv3hxLJCG4",
+      "description": "Dentists truly are the masters of mouth and teeth care, diagnosing and treating the oral diseases and injuries of the great public. The most popular area of dentistry is general dental care. These dentists are the GPs of the dentistry world and work in their own practice. Like GPs, general dentists will experience all sorts of dental problems and treat all kinds of patients, from the elderly to young children."
+    },
+    {
+      "id": 21,
+      "label": "general practice doctor",
+      "stress": 6,
+      "salary": 5000,
+      "education": 3,
+      "video": "https://www.youtube.com/embed/bUHEPAB-gsA",
+      "description": "General practice doctors (a.k.a. general practitioners or GPs) are the charming medical professionals that people go to when they are first seeking medical advice and treatment. The key to understanding the GP’s remit is in the word ‘general’. The GP is the medical world’s jack of all trades. You will need a fantastically broad range of medical knowledge to succeed."
+    },
+    {
+      "id": 22,
+      "label": "architect ",
+      "stress": 6,
+      "salary": 6500,
+      "education": 3,
+      "video": "https://www.youtube.com/embed/asdgRAjGK-M",
+      "description": "Architects design houses, buildings and other similar structures. These designs are applied to new buildings, renovations, refurbishments and extensions of existing structures. An architect is involved in the entire construction process, from initial designs, drawings and models of the proposal, to alterations based on client requirements."
+    },
+    {
+      "id": 23,
+      "label": "electrician",
+      "stress": 3,
+      "salary": 3100,
+      "education": 2,
+      "video": "https://www.youtube.com/embed/PMehYYUiZHo",
+      "description": "The role of electricians is a hugely important one. They are responsible for testing, installing and making the electrotechnical systems that cross our paths every day, and ensuring all the while that they are safe to use by the general public. As an electrician, you might also be responsible for installing electrical equipment and machinery in factories and other industrial settings. It’s pretty heavy-duty work, but if you know your stuff, you can get a real kick from seeing something go from absolutely nothing to being in perfect working order."
+    },
+    {
+      "id": 24,
+      "label": "plumber",
+      "stress": 3,
+      "salary": 2800,
+      "education": 2,
+      "video": "https://www.youtube.com/embed/bDegV91AawY",
+      "description": "Plumbing isn’t just about gaffing about with some pipes or sticking your hands down toilets – it’s a whole lot more skilled than that. Plumbing careers focus on the installation and repair of various household systems, namely sanitation units (toilets, sinks and baths), heating systems (radiators and boilers) and ventilation appliances (air conditioning). Of course, you don’t just have to work in houses or with water. Some plumbers are specially trained to install and fix gas appliances, whilst others might work in industrial buildings on things like air-conditioning and extraction systems."
+    },
+    {
+      "id": 25,
+      "label": "welder",
+      "stress": 3,
+      "salary": 3400,
+      "education": 2,
+      "video": "https://www.youtube.com/embed/fQz_fYPbK2I",
+      "description": "Welders are responsible for cutting, shaping and putting together a variety of different things related to metalwork and piping. They work across industries that spread across the world and beyond, from construction to offshore oil to space travel. You’d be expected to be able to follow engineering drawings and accurately measure different measurements in order to guarantee your work was correct and to a high standard. If using the most powerful tools in the business and taking on high levels of responsibility appeals to you."
+    },
+    {
+      "id": 26,
+      "label": "games developer",
+      "stress": 2,
+      "salary": 7500,
+      "education": 3,
+      "video": "https://www.youtube.com/embed/c0o6BPYKBiA",
+      "description": "Games developers use their creative flair and technical prowess to create the video games that keep us glued to the screen for hours, days and sometimes weeks at a time. Creating games for all kinds of platforms, from PCs and PlayStations to iPhones and arcade machines, games developers tend to specialise in one or two areas of the incredibly complex games development process, such as design, programming, testing or 3D modelling."
+    },
+    {
+      "id": 27,
+      "label": "IT consultant",
+      "stress": 4,
+      "salary": 5000,
+      "education": 3,
+      "video": "https://www.youtube.com/embed/3u78pz4lHMM",
+      "description": "An I.T. consultant is a technical specialist who works with clients across all kinds of businesses and industries. The consultant primarily provides advice on incorporating or integrating information technology systems to increase commercial efficiency and improve processes, service delivery, customer relationships, capital expenditure and above all, profitability and shareholder value."
+    },
+    {
+      "id": 28,
+      "label": "database administrator",
+      "stress": 6,
+      "salary": 10000,
+      "education": 3,
+      "video": "https://www.youtube.com/embed/yAzCBH_o7OE",
+      "description": "Database administrators’ duties vary widely, but a database administrator might be responsible for things like: controlling user access, assessing and improving the performance of the database, and installing, modifying and upgrading database applications. DBAs increasingly specialise in particular types of databases and data management systems, e.g. Oracle or SQL Server. They are also usually responsible for designing, improving and refining databases."
+    },
+    {
+      "id": 29,
+      "label": "prison officer",
+      "stress": 7,
+      "salary": 3700,
+      "education": 2,
+      "video": "https://www.youtube.com/embed/Tk2lw6qjdAM",
+      "description": "Prison officers are there to maintain a secure environment (and make sure that no prisoners escape), as well as ensure everybody follows the prison rules and orders. Typical day-to-day duties will include everything from reporting and dealing with incidents, such as bullying, substance abuse and assaults, to carrying out security duties and maintaining order – sometimes physically. There’s a fair bit of paperwork, too, as prison officers will have to submit reports, handle prisoner applications and complete observation books entries."
+    },
+    {
+      "id": 30,
+      "label": "actor",
+      "stress": 7,
+      "salary": 12000,
+      "education": 3,
+      "video": "https://www.youtube.com/embed/ltYBLMoyXwY",
+      "description": "Essentially, actors are performers who work across various different media, including theatre, television, radio and film. Some actors also do voiceovers for animated projects, act on television commercials and record audiobooks. An actor’s primary duty is to effectively communicate the character that they are playing to an audience, using their voice, body, actions and reactions. Through their art, actors tell stories, engender emotional reactions in their audience and make people think."
+    },
+    {
+      "id": 31,
+      "label": "lifeguard",
+      "stress": 7,
+      "salary": 2300,
+      "education": 1,
+      "video": "https://www.youtube.com/embed/BBLiIbzB4vM",
+      "description": "The role of the lifeguard is to keep people who are in a mass of water, safe from harm. They work at swimming pools, water parks and on the beach in order to keep all the water-loving people safe should something go wrong. The job entails keeping a sharp eye out in case of any accidents, as well as prewarning anyone doing something dangerous about the potential damage caused by their actions. Ultimately, if the worst comes to the worst, the job means you will have to jump in and save them."
+    },
+    {
+      "id": 32,
+      "label": "office manager",
+      "stress": 6,
+      "salary": 4200,
+      "education": 3,
+      "video": "https://www.youtube.com/embed/LORNXZSgjpY",
+      "description": "Office managers essentially ensure the smooth running of an office on a day-to-day basis and may manage a team of administrative or support staff. Responsibilities typically include: organising meetings and managing databases, booking transport and accommodation, organising company events or conferences, ordering stationery and furniture, dealing with correspondence, complaints and queries, preparing letters, presentations and reports, supervising and monitoring the work of administrative staff, managing office budgets, liaising with staff, suppliers and clients, implementing and maintaining procedures/office administrative systems, delegating tasks to junior employees, organising induction programmes for new employees, ensuring that health and safety policies are up to date, using a range of software packages, attending meetings with senior management, assisting the organisation's HR function by keeping personnel records up to date, arranging interviews"
+    },
+    {
+      "id": 33,
+      "label": "dietetics",
+      "stress": 4,
+      "salary": 2700,
+      "education": 2,
+      "video": "https://www.youtube.com/embed/JZC2DMgub1o",
+      "description": "Dietetics generally work in a preventative role on a one-to-one and a group basis with patients of all ages. Unlike nutritionists who primarily work with people who are ill, dietetics mostly work with people who are healthy. Key responsibilities of the job include: researching how the body's functions are affected by nutrient supply, investigating the relationship between genes and nutrients, studying how diet affects metabolism, examining the process of nourishment and the association between diet, disease and health, providing health advice and promoting healthy eating, advising about special diets, educating health professionals and the public about nutrition, working as part of a multidisciplinary team/supporting the work of other health care professionals."
+    },
+    {
+      "id": 34,
+      "label": "archaeologist",
+      "stress": 2,
+      "salary": 2500,
+      "education": 3,
+      "video": "https://www.youtube.com/embed/isi0LvLxb8c",
+      "description": "Archaeologists study past human activity by excavating, dating and interpreting objects and sites of historical interest. They implement excavation projects at historical sites and collect data that informs their understanding of the past. Major responsibilities of the job include: using geophysical surveys and aerial photography to locate suitable excavation sites, planning surveys and excavations,e xamining, documenting and preserving artefacts, producing, compiling and maintaining written, photographic and drawn records and electronic databases, supervising and guiding staff, collecting, analysing and interpreting data, writing reports, papers and other articles for publication, dating and interpreting finds, mathematical, statistical and computational modelling,assessing planning applications for building developers, creating virtual simulations of how sites or artefacts would have looked."
+    },
+    {
+      "id": 35,
+      "label": "careers adviser",
+      "stress": 3,
+      "salary": 2300,
+      "education": 2,
+      "video": "https://www.youtube.com/embed/0Ub6Pj2Elng",
+      "description": "Careers advisers are employed by private and public careers offices contracted by the Department for Communities and Learning to provide advice and guidance services. Their clients include adults, young people, the unemployed, career-changers and students in colleges and further education. Typical responsibilities include: assessing personal characteristics, skills and interests via individual interviews and/or group work, providing appropriate help and advice, liaising with schools, employers and professional organisations, promoting and marketing services, writing careers literature, action plans and reports, using specialist computer applications."
+    },
+    {
+      "id": 36,
+      "label": "call centre manager",
+      "stress": 7,
+      "salary": 3300,
+      "education": 2,
+      "video": "https://www.youtube.com/embed/orIOwlup-C0",
+      "description": "As the manager of a call centre (also called a contact centre) you will be responsible for the daily running and management of the centre through the effective use of resources. You'll have responsibility for meeting, and possibly setting, customer service targets as well as planning areas of improvement or development. Call centre managers ensure that calls and emails are answered by staff within agreed time scales and in an appropriate manner. Call centre managers liaise with businesses for which they provide the first response, as well as the third parties who supply products to the centre. You'll coordinate and motivate call centre staff and may manage staff recruitment."
+    },
+    {
+      "id": 37,
+      "label": "cardiologist",
+      "stress": 9,
+      "salary": 5000,
+      "education": 3,
+      "video": "https://www.youtube.com/embed/evBwgpp6SAM",
+      "description": "Cardiologists are doctors that go on to specialise in diagnosing, treating and preventing diseases that mainly affect the heart and blood vessels. As a cardiologist, you can work with a range of patients, from babies and young infants through to the elderly. You'll typically work with patients to treat ongoing, long-term illnesses or will respond to emergency, potentially life-threatening situations. Some of the diseases you will encounter include high blood pressure, angina, heart disease, heart failure, cardiac arrest and coronary heart disease."
+    },
+    {
+      "id": 38,
+      "label": "catering Manager",
+      "stress": 4,
+      "salary": 2900,
+      "education": 2,
+      "video": "https://www.youtube.com/embed/vHX34HN7UZE",
+      "description": "As a catering manager, you will plan, organise and develop the food and beverage services of organisations and businesses, while meeting customer expectations, food and hygiene standards, and financial targets. The role varies according to the size and nature of the business. In a small establishment, you'll usually have a hands-on role and will be involved in the day-to-day running of the operation. In larger organisations, however, you may have the help of other managers and supervisors to handle the different catering functions and catering outlets."
+    },
+    {
+      "id": 39,
+      "label": "epidemiologist",
+      "stress": 7,
+      "salary": 3200,
+      "education": 3,
+      "video": "https://www.youtube.com/embed/VtSXqmGBJlQ",
+      "description": "Epidemiologists study the patterns, causes and effects of diseases in groups of people. They can either work in a research setting, focusing on populations as a whole, or as clinical epidemiologists, concentrating on patients. If you're working in research, you'll focus on the patterns and causes of diseases by using statistics and model building to find out whether something occurs and also how it occurs. You'll study samples of the population that include healthy and unhealthy individuals. You won't normally collect the data directly from affected groups, but will analyse data given to you. Your work will inform public health policies and global strategies in order to prevent future outbreaks and epidemics of a disease. By contrast, if you're working in a clinical setting, you'll study the disease in individual patients and focus on how the disease has developed. This area of work is best suited to medically-qualified epidemiologists."
+    },
+    {
+      "id": 40,
+      "label": "fashion designer",
+      "stress": 4,
+      "salary": 4100,
+      "education": 1,
+      "video": "https://www.youtube.com/embed/WZr8KXh3LZg",
+      "description": "As a fashion designer you'll work on the design of clothing and fashion ranges. You'll typically specialise in one area of design, such as sportswear, children's wear, footwear or accessories. Depending on your level of responsibility and the company you work for, you may work to your own brief or be given a brief to work towards, with specifications relating to colour, fabric and budget."
+    },
+    {
+      "id": 41,
+      "label": "freight forwarder",
+      "stress": 4,
+      "salary": 2800,
+      "education": 2,
+      "video": "https://www.youtube.com/embed/Sim2nXew65I",
+      "description": "A freight forwarder is an agent who acts on behalf of importers, exporters or other companies to organise the safe, efficient and cost-effective transportation of goods. You will use computer systems to arrange the best means of transport, taking into account the type of goods and the customers delivery requirements. You'll use the services of shipping lines, airlines and road and rail freight operators. Companies vary in size and type, from those operating on a national and international basis to smaller, more specialised firms, which deal with particular types of goods or operate within particular geographical areas."
+    },
+    {
+      "id": 42,
+      "label": "graphic designer",
+      "stress": 4,
+      "salary": 5100,
+      "education": 3,
+      "video": "https://www.youtube.com/embed/Aq8CVKAq0QM",
+      "description": "A graphic designer works on a variety of products and activities, such as websites, advertising, books, magazines, posters, computer games, product packaging, exhibitions and displays, corporate communications and corporate identity, i.e. giving organisations a visual 'brand'. You'll work to a brief agreed with the client, creative director or account manager and will develop creative ideas and concepts. The appropriate media and style has to be chosen to meet the client's objectives. The work demands creative flair, up-to-date knowledge of industry software and a professional approach to time, costs and deadlines."
+    },
+    {
+      "id": 43,
+      "label": "meteorologist",
+      "stress": 3,
+      "salary": 2400,
+      "education": 2,
+      "video": "https://www.youtube.com/embed/Oq2tKLdF-_g",
+      "description": "As a meteorologist, you'll predict the weather and study the causes of particular weather conditions using information obtained from the land, sea and upper atmosphere. You'll need to use computerised and mathematical models to make short and long-range forecasts concerning weather and climate patterns. In addition to forecasting, you may also study the impact of weather on the environment and conduct research into weather patterns, climate change and models of weather prediction."
+    },
+    {
+      "id": 44,
+      "label": "mining engineer",
+      "stress": 7,
+      "salary": 3700,
+      "education": 3,
+      "video": "https://www.youtube.com/embed/xva5q9L8PxI",
+      "description": "A mining engineer ensures the safe and efficient development of mines and other surface and underground operations. The role combines an understanding of the effects of these structures on their surrounding environment, as well as technical knowledge and management skills. Mining engineers are involved at all stages of a project. Before a new site is developed, they assess its viability and assist with planning the mine's structure. They also manage and oversee mining production processes and are involved in the final closure and rehabilitation process."
+    },
+    {
+      "id": 45,
+      "label": "public librarian",
+      "stress": 2,
+      "salary": 2200,
+      "education": 1,
+      "video": "https://www.youtube.com/embed/hwQn77Y5qtg",
+      "description": "As a public librarian you'll acquire, organise and provide access to a range of information and reading resources to meet the diverse needs of the community. Public librarians are proficient in the use of ICT as part of the role involves assisting the public in accessing the internet and other web-based services. You may also spend time talking to, and building up relationships with, members of the public and assisting with specific learning needs or community groups. Public librarians run events in the library for the community and work with local schools and colleges."
+    },
+    {
+      "id": 46,
+      "label": "sound technician, broadcasting/film/video",
+      "stress": 5,
+      "salary": 3600,
+      "education": 2,
+      "video": "https://www.youtube.com/embed/7wGl4ysbHNg",
+      "description": "As a sound technician, it's your responsibility to assemble, operate and maintain the technical equipment used to record, amplify, enhance, mix or reproduce sound. You'll identify the sound requirements for a given task or situation and perform the appropriate actions to produce this sound. Job titles vary according to the industry and can include sound assistant, sound recordist and sound supervisor."
+    },
+    {
+      "id": 47,
+      "label": "translator",
+      "stress": 3,
+      "salary": 3100,
+      "education": 2,
+      "video": "https://www.youtube.com/embed/XCrx6vfTKyE",
+      "description": "As a translator, you will convert written material from one or more 'source languages' into the 'target language', making sure that the translated version conveys the meaning of the original as clearly as possible. The target language is normally your mother tongue. Transcreating may also be part of the job, which is a mix of translation, localisation and copywriting, where the text is culturally and linguistically adapted to suit the reader."
+    },
+    {
+      "id": 48,
+      "label": "zoologist",
+      "stress": 2,
+      "salary": 2600,
+      "education": 2,
+      "video": "https://www.youtube.com/embed/Bk7-y1JP8jM",
+      "description": "Zoologists study the evolution, anatomy, physiology, behaviour, distribution and classification of animals. They look at species and populations of animals and work with animals out in the field, in captivity or in a laboratory. As a zoologist, you can specialise in a particular area; for example, working with reptiles and amphibians (herpetologist), mammals (mammologist), birds (ornithologist), fossil remains (paleozoologist) or parasites (parasitologist). Job titles vary greatly and may include zoological field assistant, field biologist, wildlife biologist, conservation biologist or field assistant."
+    },
+    {
+      "id": 49,
+      "label": "stylist",
+      "stress": 4,
+      "salary": 3400,
+      "education": 2,
+      "video": "https://www.youtube.com/embed/GNy0n6qUl4w",
+      "description": "Following a design brief, stylists use their creative skills to produce visually appealing displays, photo shoots or outfits. This is a fast-changing, highly-pressurised role that would suit someone that thrives on being busy, solving problems, collaborating with others and being creative. Communication is key as you'll need to work with a variety of people and agencies to get the job done on time and to a consistently high standard."
+    },
+    {
+      "id": 50,
+      "label": "metallurgist",
+      "stress": 5,
+      "salary": 3400,
+      "education": 2,
+      "video": "https://www.youtube.com/embed/edL2VtSqbps",
+      "description": "Metallurgists are concerned with the extraction and processing of various metals and alloys. You will investigate and examine the performance of metals such as iron, steel, aluminium, nickel and copper and use them to produce a range of useful products and materials with certain properties. You may be at the forefront of new technologies, developing metals for new applications, or involved in the traditional manufacture of anything from razor blades to washing machines. You'll often work in multidisciplinary teams of engineers, scientists and business professionals."
+    }
   ],
-  "users":[
-    {"id": 0, "login": "tester", "password":"1234", "favourites":[
-      {"id": 21, "label": "general practice doctor", "stress":6, "salary": 5000, "education": 3, "video": "https://www.youtube.com/embed/bUHEPAB-gsA", "description": "General practice doctors (a.k.a. general practitioners or GPs) are the charming medical professionals that people go to when they are first seeking medical advice and treatment. The key to understanding the GP’s remit is in the word ‘general’. The GP is the medical world’s jack of all trades. You will need a fantastically broad range of medical knowledge to succeed."},
-      {"id": 22, "label": "architect ", "stress":6, "salary": 6500, "education": 3, "video": "https://www.youtube.com/embed/asdgRAjGK-M", "description": "Architects design houses, buildings and other similar structures. These designs are applied to new buildings, renovations, refurbishments and extensions of existing structures. An architect is involved in the entire construction process, from initial designs, drawings and models of the proposal, to alterations based on client requirements."}
-    ], "recommended":[
-      {"id": 45, "label": "public librarian", "stress":2, "salary": 2200, "education": 1, "video": "https://www.youtube.com/embed/hwQn77Y5qtg", "description": "As a public librarian you'll acquire, organise and provide access to a range of information and reading resources to meet the diverse needs of the community. Public librarians are proficient in the use of ICT as part of the role involves assisting the public in accessing the internet and other web-based services. You may also spend time talking to, and building up relationships with, members of the public and assisting with specific learning needs or community groups. Public librarians run events in the library for the community and work with local schools and colleges."},
-      {"id": 46, "label": "sound technician, broadcasting/film/video", "stress":5, "salary": 3600, "education": 2, "video": "https://www.youtube.com/embed/7wGl4ysbHNg", "description": "As a sound technician, it's your responsibility to assemble, operate and maintain the technical equipment used to record, amplify, enhance, mix or reproduce sound. You'll identify the sound requirements for a given task or situation and perform the appropriate actions to produce this sound. Job titles vary according to the industry and can include sound assistant, sound recordist and sound supervisor."},
-      {"id": 47, "label": "translator", "stress":3, "salary": 3100, "education": 2, "video": "https://www.youtube.com/embed/XCrx6vfTKyE", "description": "As a translator, you will convert written material from one or more 'source languages' into the 'target language', making sure that the translated version conveys the meaning of the original as clearly as possible. The target language is normally your mother tongue. Transcreating may also be part of the job, which is a mix of translation, localisation and copywriting, where the text is culturally and linguistically adapted to suit the reader."},
-      {"id": 48, "label": "zoologist", "stress":2, "salary": 2600, "education": 2, "video": "https://www.youtube.com/embed/Bk7-y1JP8jM", "description": "Zoologists study the evolution, anatomy, physiology, behaviour, distribution and classification of animals. They look at species and populations of animals and work with animals out in the field, in captivity or in a laboratory. As a zoologist, you can specialise in a particular area; for example, working with reptiles and amphibians (herpetologist), mammals (mammologist), birds (ornithologist), fossil remains (paleozoologist) or parasites (parasitologist). Job titles vary greatly and may include zoological field assistant, field biologist, wildlife biologist, conservation biologist or field assistant."},
-      {"id": 49, "label": "stylist", "stress":4, "salary": 3400, "education": 2, "video": "https://www.youtube.com/embed/GNy0n6qUl4w", "description": "Following a design brief, stylists use their creative skills to produce visually appealing displays, photo shoots or outfits. This is a fast-changing, highly-pressurised role that would suit someone that thrives on being busy, solving problems, collaborating with others and being creative. Communication is key as you'll need to work with a variety of people and agencies to get the job done on time and to a consistently high standard."},
-      {"id": 50, "label": "metallurgist", "stress":5, "salary": 3400, "education": 2, "video": "https://www.youtube.com/embed/edL2VtSqbps", "description": "Metallurgists are concerned with the extraction and processing of various metals and alloys. You will investigate and examine the performance of metals such as iron, steel, aluminium, nickel and copper and use them to produce a range of useful products and materials with certain properties. You may be at the forefront of new technologies, developing metals for new applications, or involved in the traditional manufacture of anything from razor blades to washing machines. You'll often work in multidisciplinary teams of engineers, scientists and business professionals."}
-    ]},
-    {"id": 1, "login": "john", "password":"1234", "favourites":[
-      {"id": 17, "label": "optometrist", "stress":4, "salary": 2500, "education": 2, "video": "https://www.youtube.com/embed/nhdeagg1ELY", "description": "Optometrists are healthcare professionals trained to examine eyes to detect defects in vision and ocular diseases, such as glaucoma and conjunctivitis. They are the Dr Houses of the eye world: just by looking into someone’s eyes, optometrists can suss out whether that person has certain health problems, such as diabetes or high blood pressure. They also help the visually challenged to see by conducting eye tests, prescribing lenses, therapy or eye exercises."},
-      {"id": 18, "label": "paramedic", "stress":6, "salary": 3000, "education": 2, "video": "https://www.youtube.com/embed/C0pWE_xCKWY", "description": "Paramedics are emergency response medical professionals, trained in making quick diagnoses and administering immediate medical care to victims of accidents, violence and sudden illnesses, such as cardiac arrests or strokes. These peoples also provide quick, controlled transfers to healthcare facilities, keeping patients stable while they’re in transit by using advanced equipment and their medical expertise."},
-      {"id": 19, "label": "psychotherapist", "stress":7, "salary": 4000, "education": 3, "video": "https://www.youtube.com/embed/B6OxWNkxnyU", "description": "Psychotherapists help people to overcome their emotional problems and cope with tough situations using a range of psychological treatments, such as hypnotherapy, cognitive behavioural therapy (CBT) and psychodynamic therapy. As well as talking to people and helping them deal with their problems, psychotherapists are responsible for assessing service users’ needs and then creating an appropriate treatment plan for them, which will provide them with a structured and focused way of addressing their problems."},
-      {"id": 20, "label": "dentists", "stress":6, "salary": 6400, "education": 3, "video": "https://www.youtube.com/embed/wzv3hxLJCG4", "description": "Dentists truly are the masters of mouth and teeth care, diagnosing and treating the oral diseases and injuries of the great public. The most popular area of dentistry is general dental care. These dentists are the GPs of the dentistry world and work in their own practice. Like GPs, general dentists will experience all sorts of dental problems and treat all kinds of patients, from the elderly to young children."},
-      {"id": 21, "label": "general practice doctor", "stress":6, "salary": 5000, "education": 3, "video": "https://www.youtube.com/embed/bUHEPAB-gsA", "description": "General practice doctors (a.k.a. general practitioners or GPs) are the charming medical professionals that people go to when they are first seeking medical advice and treatment. The key to understanding the GP’s remit is in the word ‘general’. The GP is the medical world’s jack of all trades. You will need a fantastically broad range of medical knowledge to succeed."},
-      {"id": 22, "label": "architect ", "stress":6, "salary": 6500, "education": 3, "video": "https://www.youtube.com/embed/asdgRAjGK-M", "description": "Architects design houses, buildings and other similar structures. These designs are applied to new buildings, renovations, refurbishments and extensions of existing structures. An architect is involved in the entire construction process, from initial designs, drawings and models of the proposal, to alterations based on client requirements."},
-      {"id": 23, "label": "electrician", "stress":3, "salary": 3100, "education": 2, "video": "https://www.youtube.com/embed/PMehYYUiZHo", "description": "The role of electricians is a hugely important one. They are responsible for testing, installing and making the electrotechnical systems that cross our paths every day, and ensuring all the while that they are safe to use by the general public. As an electrician, you might also be responsible for installing electrical equipment and machinery in factories and other industrial settings. It’s pretty heavy-duty work, but if you know your stuff, you can get a real kick from seeing something go from absolutely nothing to being in perfect working order."},
-      {"id": 24, "label": "plumber", "stress":3, "salary": 2800, "education": 2, "video": "https://www.youtube.com/embed/bDegV91AawY", "description": "Plumbing isn’t just about gaffing about with some pipes or sticking your hands down toilets – it’s a whole lot more skilled than that. Plumbing careers focus on the installation and repair of various household systems, namely sanitation units (toilets, sinks and baths), heating systems (radiators and boilers) and ventilation appliances (air conditioning). Of course, you don’t just have to work in houses or with water. Some plumbers are specially trained to install and fix gas appliances, whilst others might work in industrial buildings on things like air-conditioning and extraction systems."},
-      {"id": 25, "label": "welder", "stress":3, "salary": 3400, "education": 2, "video": "https://www.youtube.com/embed/fQz_fYPbK2I", "description": "Welders are responsible for cutting, shaping and putting together a variety of different things related to metalwork and piping. They work across industries that spread across the world and beyond, from construction to offshore oil to space travel. You’d be expected to be able to follow engineering drawings and accurately measure different measurements in order to guarantee your work was correct and to a high standard. If using the most powerful tools in the business and taking on high levels of responsibility appeals to you."}
-    ], "recommended":[
-      {"id": 45, "label": "public librarian", "stress":2, "salary": 2200, "education": 1, "video": "https://www.youtube.com/embed/hwQn77Y5qtg", "description": "As a public librarian you'll acquire, organise and provide access to a range of information and reading resources to meet the diverse needs of the community. Public librarians are proficient in the use of ICT as part of the role involves assisting the public in accessing the internet and other web-based services. You may also spend time talking to, and building up relationships with, members of the public and assisting with specific learning needs or community groups. Public librarians run events in the library for the community and work with local schools and colleges."},
-      {"id": 46, "label": "sound technician, broadcasting/film/video", "stress":5, "salary": 3600, "education": 2, "video": "https://www.youtube.com/embed/7wGl4ysbHNg", "description": "As a sound technician, it's your responsibility to assemble, operate and maintain the technical equipment used to record, amplify, enhance, mix or reproduce sound. You'll identify the sound requirements for a given task or situation and perform the appropriate actions to produce this sound. Job titles vary according to the industry and can include sound assistant, sound recordist and sound supervisor."},
-      {"id": 47, "label": "translator", "stress":3, "salary": 3100, "education": 2, "video": "https://www.youtube.com/embed/XCrx6vfTKyE", "description": "As a translator, you will convert written material from one or more 'source languages' into the 'target language', making sure that the translated version conveys the meaning of the original as clearly as possible. The target language is normally your mother tongue. Transcreating may also be part of the job, which is a mix of translation, localisation and copywriting, where the text is culturally and linguistically adapted to suit the reader."},
-      {"id": 48, "label": "zoologist", "stress":2, "salary": 2600, "education": 2, "video": "https://www.youtube.com/embed/Bk7-y1JP8jM", "description": "Zoologists study the evolution, anatomy, physiology, behaviour, distribution and classification of animals. They look at species and populations of animals and work with animals out in the field, in captivity or in a laboratory. As a zoologist, you can specialise in a particular area; for example, working with reptiles and amphibians (herpetologist), mammals (mammologist), birds (ornithologist), fossil remains (paleozoologist) or parasites (parasitologist). Job titles vary greatly and may include zoological field assistant, field biologist, wildlife biologist, conservation biologist or field assistant."},
-      {"id": 49, "label": "stylist", "stress":4, "salary": 3400, "education": 2, "video": "https://www.youtube.com/embed/GNy0n6qUl4w", "description": "Following a design brief, stylists use their creative skills to produce visually appealing displays, photo shoots or outfits. This is a fast-changing, highly-pressurised role that would suit someone that thrives on being busy, solving problems, collaborating with others and being creative. Communication is key as you'll need to work with a variety of people and agencies to get the job done on time and to a consistently high standard."},
-      {"id": 50, "label": "metallurgist", "stress":5, "salary": 3400, "education": 2, "video": "https://www.youtube.com/embed/edL2VtSqbps", "description": "Metallurgists are concerned with the extraction and processing of various metals and alloys. You will investigate and examine the performance of metals such as iron, steel, aluminium, nickel and copper and use them to produce a range of useful products and materials with certain properties. You may be at the forefront of new technologies, developing metals for new applications, or involved in the traditional manufacture of anything from razor blades to washing machines. You'll often work in multidisciplinary teams of engineers, scientists and business professionals."}
-    ]}
+  "users": [
+    {
+      "id": 0,
+      "login": "tester",
+      "password": "1234",
+      "favourites": [
+        {
+          "id": 21,
+          "label": "general practice doctor",
+          "stress": 6,
+          "salary": 5000,
+          "education": 3,
+          "video": "https://www.youtube.com/embed/bUHEPAB-gsA",
+          "description": "General practice doctors (a.k.a. general practitioners or GPs) are the charming medical professionals that people go to when they are first seeking medical advice and treatment. The key to understanding the GP’s remit is in the word ‘general’. The GP is the medical world’s jack of all trades. You will need a fantastically broad range of medical knowledge to succeed."
+        },
+        {
+          "id": 22,
+          "label": "architect ",
+          "stress": 6,
+          "salary": 6500,
+          "education": 3,
+          "video": "https://www.youtube.com/embed/asdgRAjGK-M",
+          "description": "Architects design houses, buildings and other similar structures. These designs are applied to new buildings, renovations, refurbishments and extensions of existing structures. An architect is involved in the entire construction process, from initial designs, drawings and models of the proposal, to alterations based on client requirements."
+        },
+        {
+          "id": 47,
+          "label": "translator",
+          "stress": 3,
+          "salary": 3100,
+          "education": 2,
+          "video": "https://www.youtube.com/embed/XCrx6vfTKyE",
+          "description": "As a translator, you will convert written material from one or more 'source languages' into the 'target language', making sure that the translated version conveys the meaning of the original as clearly as possible. The target language is normally your mother tongue. Transcreating may also be part of the job, which is a mix of translation, localisation and copywriting, where the text is culturally and linguistically adapted to suit the reader."
+        },
+        {
+          "id": 48,
+          "label": "zoologist",
+          "stress": 2,
+          "salary": 2600,
+          "education": 2,
+          "video": "https://www.youtube.com/embed/Bk7-y1JP8jM",
+          "description": "Zoologists study the evolution, anatomy, physiology, behaviour, distribution and classification of animals. They look at species and populations of animals and work with animals out in the field, in captivity or in a laboratory. As a zoologist, you can specialise in a particular area; for example, working with reptiles and amphibians (herpetologist), mammals (mammologist), birds (ornithologist), fossil remains (paleozoologist) or parasites (parasitologist). Job titles vary greatly and may include zoological field assistant, field biologist, wildlife biologist, conservation biologist or field assistant."
+        }
+      ],
+      "recommended": [
+        {
+          "id": 45,
+          "label": "public librarian",
+          "stress": 2,
+          "salary": 2200,
+          "education": 1,
+          "video": "https://www.youtube.com/embed/hwQn77Y5qtg",
+          "description": "As a public librarian you'll acquire, organise and provide access to a range of information and reading resources to meet the diverse needs of the community. Public librarians are proficient in the use of ICT as part of the role involves assisting the public in accessing the internet and other web-based services. You may also spend time talking to, and building up relationships with, members of the public and assisting with specific learning needs or community groups. Public librarians run events in the library for the community and work with local schools and colleges."
+        },
+        {
+          "id": 46,
+          "label": "sound technician, broadcasting/film/video",
+          "stress": 5,
+          "salary": 3600,
+          "education": 2,
+          "video": "https://www.youtube.com/embed/7wGl4ysbHNg",
+          "description": "As a sound technician, it's your responsibility to assemble, operate and maintain the technical equipment used to record, amplify, enhance, mix or reproduce sound. You'll identify the sound requirements for a given task or situation and perform the appropriate actions to produce this sound. Job titles vary according to the industry and can include sound assistant, sound recordist and sound supervisor."
+        },
+        {
+          "id": 47,
+          "label": "translator",
+          "stress": 3,
+          "salary": 3100,
+          "education": 2,
+          "video": "https://www.youtube.com/embed/XCrx6vfTKyE",
+          "description": "As a translator, you will convert written material from one or more 'source languages' into the 'target language', making sure that the translated version conveys the meaning of the original as clearly as possible. The target language is normally your mother tongue. Transcreating may also be part of the job, which is a mix of translation, localisation and copywriting, where the text is culturally and linguistically adapted to suit the reader."
+        },
+        {
+          "id": 48,
+          "label": "zoologist",
+          "stress": 2,
+          "salary": 2600,
+          "education": 2,
+          "video": "https://www.youtube.com/embed/Bk7-y1JP8jM",
+          "description": "Zoologists study the evolution, anatomy, physiology, behaviour, distribution and classification of animals. They look at species and populations of animals and work with animals out in the field, in captivity or in a laboratory. As a zoologist, you can specialise in a particular area; for example, working with reptiles and amphibians (herpetologist), mammals (mammologist), birds (ornithologist), fossil remains (paleozoologist) or parasites (parasitologist). Job titles vary greatly and may include zoological field assistant, field biologist, wildlife biologist, conservation biologist or field assistant."
+        },
+        {
+          "id": 49,
+          "label": "stylist",
+          "stress": 4,
+          "salary": 3400,
+          "education": 2,
+          "video": "https://www.youtube.com/embed/GNy0n6qUl4w",
+          "description": "Following a design brief, stylists use their creative skills to produce visually appealing displays, photo shoots or outfits. This is a fast-changing, highly-pressurised role that would suit someone that thrives on being busy, solving problems, collaborating with others and being creative. Communication is key as you'll need to work with a variety of people and agencies to get the job done on time and to a consistently high standard."
+        },
+        {
+          "id": 50,
+          "label": "metallurgist",
+          "stress": 5,
+          "salary": 3400,
+          "education": 2,
+          "video": "https://www.youtube.com/embed/edL2VtSqbps",
+          "description": "Metallurgists are concerned with the extraction and processing of various metals and alloys. You will investigate and examine the performance of metals such as iron, steel, aluminium, nickel and copper and use them to produce a range of useful products and materials with certain properties. You may be at the forefront of new technologies, developing metals for new applications, or involved in the traditional manufacture of anything from razor blades to washing machines. You'll often work in multidisciplinary teams of engineers, scientists and business professionals."
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "login": "john",
+      "password": "1234",
+      "favourites": [
+        {
+          "id": 17,
+          "label": "optometrist",
+          "stress": 4,
+          "salary": 2500,
+          "education": 2,
+          "video": "https://www.youtube.com/embed/nhdeagg1ELY",
+          "description": "Optometrists are healthcare professionals trained to examine eyes to detect defects in vision and ocular diseases, such as glaucoma and conjunctivitis. They are the Dr Houses of the eye world: just by looking into someone’s eyes, optometrists can suss out whether that person has certain health problems, such as diabetes or high blood pressure. They also help the visually challenged to see by conducting eye tests, prescribing lenses, therapy or eye exercises."
+        },
+        {
+          "id": 18,
+          "label": "paramedic",
+          "stress": 6,
+          "salary": 3000,
+          "education": 2,
+          "video": "https://www.youtube.com/embed/C0pWE_xCKWY",
+          "description": "Paramedics are emergency response medical professionals, trained in making quick diagnoses and administering immediate medical care to victims of accidents, violence and sudden illnesses, such as cardiac arrests or strokes. These peoples also provide quick, controlled transfers to healthcare facilities, keeping patients stable while they’re in transit by using advanced equipment and their medical expertise."
+        },
+        {
+          "id": 19,
+          "label": "psychotherapist",
+          "stress": 7,
+          "salary": 4000,
+          "education": 3,
+          "video": "https://www.youtube.com/embed/B6OxWNkxnyU",
+          "description": "Psychotherapists help people to overcome their emotional problems and cope with tough situations using a range of psychological treatments, such as hypnotherapy, cognitive behavioural therapy (CBT) and psychodynamic therapy. As well as talking to people and helping them deal with their problems, psychotherapists are responsible for assessing service users’ needs and then creating an appropriate treatment plan for them, which will provide them with a structured and focused way of addressing their problems."
+        },
+        {
+          "id": 20,
+          "label": "dentists",
+          "stress": 6,
+          "salary": 6400,
+          "education": 3,
+          "video": "https://www.youtube.com/embed/wzv3hxLJCG4",
+          "description": "Dentists truly are the masters of mouth and teeth care, diagnosing and treating the oral diseases and injuries of the great public. The most popular area of dentistry is general dental care. These dentists are the GPs of the dentistry world and work in their own practice. Like GPs, general dentists will experience all sorts of dental problems and treat all kinds of patients, from the elderly to young children."
+        },
+        {
+          "id": 21,
+          "label": "general practice doctor",
+          "stress": 6,
+          "salary": 5000,
+          "education": 3,
+          "video": "https://www.youtube.com/embed/bUHEPAB-gsA",
+          "description": "General practice doctors (a.k.a. general practitioners or GPs) are the charming medical professionals that people go to when they are first seeking medical advice and treatment. The key to understanding the GP’s remit is in the word ‘general’. The GP is the medical world’s jack of all trades. You will need a fantastically broad range of medical knowledge to succeed."
+        },
+        {
+          "id": 22,
+          "label": "architect ",
+          "stress": 6,
+          "salary": 6500,
+          "education": 3,
+          "video": "https://www.youtube.com/embed/asdgRAjGK-M",
+          "description": "Architects design houses, buildings and other similar structures. These designs are applied to new buildings, renovations, refurbishments and extensions of existing structures. An architect is involved in the entire construction process, from initial designs, drawings and models of the proposal, to alterations based on client requirements."
+        },
+        {
+          "id": 23,
+          "label": "electrician",
+          "stress": 3,
+          "salary": 3100,
+          "education": 2,
+          "video": "https://www.youtube.com/embed/PMehYYUiZHo",
+          "description": "The role of electricians is a hugely important one. They are responsible for testing, installing and making the electrotechnical systems that cross our paths every day, and ensuring all the while that they are safe to use by the general public. As an electrician, you might also be responsible for installing electrical equipment and machinery in factories and other industrial settings. It’s pretty heavy-duty work, but if you know your stuff, you can get a real kick from seeing something go from absolutely nothing to being in perfect working order."
+        },
+        {
+          "id": 24,
+          "label": "plumber",
+          "stress": 3,
+          "salary": 2800,
+          "education": 2,
+          "video": "https://www.youtube.com/embed/bDegV91AawY",
+          "description": "Plumbing isn’t just about gaffing about with some pipes or sticking your hands down toilets – it’s a whole lot more skilled than that. Plumbing careers focus on the installation and repair of various household systems, namely sanitation units (toilets, sinks and baths), heating systems (radiators and boilers) and ventilation appliances (air conditioning). Of course, you don’t just have to work in houses or with water. Some plumbers are specially trained to install and fix gas appliances, whilst others might work in industrial buildings on things like air-conditioning and extraction systems."
+        },
+        {
+          "id": 25,
+          "label": "welder",
+          "stress": 3,
+          "salary": 3400,
+          "education": 2,
+          "video": "https://www.youtube.com/embed/fQz_fYPbK2I",
+          "description": "Welders are responsible for cutting, shaping and putting together a variety of different things related to metalwork and piping. They work across industries that spread across the world and beyond, from construction to offshore oil to space travel. You’d be expected to be able to follow engineering drawings and accurately measure different measurements in order to guarantee your work was correct and to a high standard. If using the most powerful tools in the business and taking on high levels of responsibility appeals to you."
+        }
+      ],
+      "recommended": [
+        {
+          "id": 45,
+          "label": "public librarian",
+          "stress": 2,
+          "salary": 2200,
+          "education": 1,
+          "video": "https://www.youtube.com/embed/hwQn77Y5qtg",
+          "description": "As a public librarian you'll acquire, organise and provide access to a range of information and reading resources to meet the diverse needs of the community. Public librarians are proficient in the use of ICT as part of the role involves assisting the public in accessing the internet and other web-based services. You may also spend time talking to, and building up relationships with, members of the public and assisting with specific learning needs or community groups. Public librarians run events in the library for the community and work with local schools and colleges."
+        },
+        {
+          "id": 46,
+          "label": "sound technician, broadcasting/film/video",
+          "stress": 5,
+          "salary": 3600,
+          "education": 2,
+          "video": "https://www.youtube.com/embed/7wGl4ysbHNg",
+          "description": "As a sound technician, it's your responsibility to assemble, operate and maintain the technical equipment used to record, amplify, enhance, mix or reproduce sound. You'll identify the sound requirements for a given task or situation and perform the appropriate actions to produce this sound. Job titles vary according to the industry and can include sound assistant, sound recordist and sound supervisor."
+        },
+        {
+          "id": 47,
+          "label": "translator",
+          "stress": 3,
+          "salary": 3100,
+          "education": 2,
+          "video": "https://www.youtube.com/embed/XCrx6vfTKyE",
+          "description": "As a translator, you will convert written material from one or more 'source languages' into the 'target language', making sure that the translated version conveys the meaning of the original as clearly as possible. The target language is normally your mother tongue. Transcreating may also be part of the job, which is a mix of translation, localisation and copywriting, where the text is culturally and linguistically adapted to suit the reader."
+        },
+        {
+          "id": 48,
+          "label": "zoologist",
+          "stress": 2,
+          "salary": 2600,
+          "education": 2,
+          "video": "https://www.youtube.com/embed/Bk7-y1JP8jM",
+          "description": "Zoologists study the evolution, anatomy, physiology, behaviour, distribution and classification of animals. They look at species and populations of animals and work with animals out in the field, in captivity or in a laboratory. As a zoologist, you can specialise in a particular area; for example, working with reptiles and amphibians (herpetologist), mammals (mammologist), birds (ornithologist), fossil remains (paleozoologist) or parasites (parasitologist). Job titles vary greatly and may include zoological field assistant, field biologist, wildlife biologist, conservation biologist or field assistant."
+        },
+        {
+          "id": 49,
+          "label": "stylist",
+          "stress": 4,
+          "salary": 3400,
+          "education": 2,
+          "video": "https://www.youtube.com/embed/GNy0n6qUl4w",
+          "description": "Following a design brief, stylists use their creative skills to produce visually appealing displays, photo shoots or outfits. This is a fast-changing, highly-pressurised role that would suit someone that thrives on being busy, solving problems, collaborating with others and being creative. Communication is key as you'll need to work with a variety of people and agencies to get the job done on time and to a consistently high standard."
+        },
+        {
+          "id": 50,
+          "label": "metallurgist",
+          "stress": 5,
+          "salary": 3400,
+          "education": 2,
+          "video": "https://www.youtube.com/embed/edL2VtSqbps",
+          "description": "Metallurgists are concerned with the extraction and processing of various metals and alloys. You will investigate and examine the performance of metals such as iron, steel, aluminium, nickel and copper and use them to produce a range of useful products and materials with certain properties. You may be at the forefront of new technologies, developing metals for new applications, or involved in the traditional manufacture of anything from razor blades to washing machines. You'll often work in multidisciplinary teams of engineers, scientists and business professionals."
+        }
+      ]
+    },
+    {
+      "login": "norbi",
+      "password": "1234",
+      "favourites": [
+        {
+          "id": 40,
+          "label": "fashion designer",
+          "stress": 4,
+          "salary": 4100,
+          "education": 1,
+          "video": "https://www.youtube.com/embed/WZr8KXh3LZg",
+          "description": "As a fashion designer you'll work on the design of clothing and fashion ranges. You'll typically specialise in one area of design, such as sportswear, children's wear, footwear or accessories. Depending on your level of responsibility and the company you work for, you may work to your own brief or be given a brief to work towards, with specifications relating to colour, fabric and budget."
+        },
+        {
+          "id": 45,
+          "label": "public librarian",
+          "stress": 2,
+          "salary": 2200,
+          "education": 1,
+          "video": "https://www.youtube.com/embed/hwQn77Y5qtg",
+          "description": "As a public librarian you'll acquire, organise and provide access to a range of information and reading resources to meet the diverse needs of the community. Public librarians are proficient in the use of ICT as part of the role involves assisting the public in accessing the internet and other web-based services. You may also spend time talking to, and building up relationships with, members of the public and assisting with specific learning needs or community groups. Public librarians run events in the library for the community and work with local schools and colleges."
+        },
+        {
+          "id": 14,
+          "label": "barrister ",
+          "stress": 4,
+          "salary": 2700,
+          "education": 1,
+          "video": "https://www.youtube.com/embed/TpMJ2XlzO-0",
+          "description": "A barrister is a lawyer who gives expert legal advice and represents their clients in court. A barrister doesn’t tend to be a jack of all legal trades. In fact, they usually focus on a specific area of law. For instance, they might only deal with criminal law cases; they might only represent companies in commercial law matters; or they might solely focus on medical negligence lawsuits."
+        }
+      ],
+      "recommended": [
+        {
+          "id": 20,
+          "label": "dentists",
+          "stress": 6,
+          "salary": 6400,
+          "education": 3,
+          "video": "https://www.youtube.com/embed/wzv3hxLJCG4",
+          "description": "Dentists truly are the masters of mouth and teeth care, diagnosing and treating the oral diseases and injuries of the great public. The most popular area of dentistry is general dental care. These dentists are the GPs of the dentistry world and work in their own practice. Like GPs, general dentists will experience all sorts of dental problems and treat all kinds of patients, from the elderly to young children."
+        },
+        {
+          "id": 21,
+          "label": "general practice doctor",
+          "stress": 6,
+          "salary": 5000,
+          "education": 3,
+          "video": "https://www.youtube.com/embed/bUHEPAB-gsA",
+          "description": "General practice doctors (a.k.a. general practitioners or GPs) are the charming medical professionals that people go to when they are first seeking medical advice and treatment. The key to understanding the GP’s remit is in the word ‘general’. The GP is the medical world’s jack of all trades. You will need a fantastically broad range of medical knowledge to succeed."
+        },
+        {
+          "id": 22,
+          "label": "architect ",
+          "stress": 6,
+          "salary": 6500,
+          "education": 3,
+          "video": "https://www.youtube.com/embed/asdgRAjGK-M",
+          "description": "Architects design houses, buildings and other similar structures. These designs are applied to new buildings, renovations, refurbishments and extensions of existing structures. An architect is involved in the entire construction process, from initial designs, drawings and models of the proposal, to alterations based on client requirements."
+        },
+        {
+          "id": 23,
+          "label": "electrician",
+          "stress": 3,
+          "salary": 3100,
+          "education": 2,
+          "video": "https://www.youtube.com/embed/PMehYYUiZHo",
+          "description": "The role of electricians is a hugely important one. They are responsible for testing, installing and making the electrotechnical systems that cross our paths every day, and ensuring all the while that they are safe to use by the general public. As an electrician, you might also be responsible for installing electrical equipment and machinery in factories and other industrial settings. It’s pretty heavy-duty work, but if you know your stuff, you can get a real kick from seeing something go from absolutely nothing to being in perfect working order."
+        }
+      ],
+      "id": 2
+    }
   ]
-
 }

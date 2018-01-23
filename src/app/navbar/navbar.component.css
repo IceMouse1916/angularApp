@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .kolor{
   background-color: #41a7bf;
   border: 1px solid #ccc;
@@ -9,3 +10,8 @@
   color: #fff;
 }
 
+=======
+.nk-active{
+    color: white !important;
+}
+>>>>>>> 5ef8b5a456f41add53a462563fde4436119313dc
